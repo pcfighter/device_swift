@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES += \
 	device/lg/swift/proprietary/app/CalendarWidget.apk:system/app/CalendarWidget.apk \
 	device/lg/swift/proprietary/app/Facebook.apk:system/app/Facebook.apk \
 	device/lg/swift/proprietary/app/Twitter.apk:system/app/Twitter.apk \
-	device/lg/swift/proprietary/app/CalibrationTS.apk:system/app/CalibrationTS.apk \
 	device/lg/swift/proprietary/app/GoogleCalendarSyncAdapter.apk:system/app/GoogleCalendarSyncAdapter.apk \
 	device/lg/swift/proprietary/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
 	device/lg/swift/proprietary/app/googlevoice.apk:system/app/googlevoice.apk \
