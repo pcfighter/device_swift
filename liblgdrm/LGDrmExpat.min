@@ -1,0 +1,15 @@
+#-------------------------------------------------------------------------------
+# EXPAT
+#-------------------------------------------------------------------------------
+
+LGDRM_EXPAT_SOURCES := \
+		Expat/xmlparse_drm.c \
+		Expat/xmlrole_drm.c \
+		Expat/xmltok_drm.c \
+		Expat/xmltok_impl_drm.c \
+		Expat/xmltok_ns_drm.c
+
+#------------------ FLAG -------------------------------------------------------------
+LGDRM_EXPAT_INCLUDE = $(foreach V_DIR,$(LGDRM_DEFAULT_PATHS),$(LOCAL_PATH)/$(V_DIR))
+LGDRM_EXPAT_APPFLAG = $(LGDRM_DEFAULT_APPFLAG) -DHAVE_EXPAT_CONFIG_H_DRM -DXML_STATIC_DRM
+#------------------ FLAG -------------------------------------------------------------

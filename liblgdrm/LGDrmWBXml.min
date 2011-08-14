@@ -1,0 +1,25 @@
+#-------------------------------------------------------------------------------
+# WBXML
+#-------------------------------------------------------------------------------
+
+LGDRM_WBXML_SOURCES := \
+		WBXmllib/wbxml_base64.c \
+		WBXmllib/wbxml_buffers.c \
+		WBXmllib/wbxml_charset.c \
+		WBXmllib/wbxml_conv.c \
+		WBXmllib/wbxml_elt.c \
+		WBXmllib/wbxml_encoder.c \
+		WBXmllib/wbxml_errors.c \
+		WBXmllib/wbxml_lists.c \
+		WBXmllib/wbxml_log.c \
+		WBXmllib/wbxml_mem.c \
+		WBXmllib/wbxml_parser.c \
+		WBXmllib/wbxml_tables.c \
+		WBXmllib/wbxml_tree.c \
+		WBXmllib/wbxml_tree_clb_wbxml.c \
+		WBXmllib/wbxml_tree_clb_xml.c
+
+#------------------ FLAG -------------------------------------------------------------
+LGDRM_WBXML_INCLUDE = $(foreach V_DIR,$(LGDRM_DEFAULT_PATHS),$(LOCAL_PATH)/$(V_DIR))
+LGDRM_WBXML_APPFLAG = $(LGDRM_DEFAULT_APPFLAG) -DHAVE_EXPAT
+#------------------ FLAG -------------------------------------------------------------

@@ -1,0 +1,254 @@
+## hopemini@lge.com, 2009-12-01
+## modify by hopemini@lge.com, 2009-12-06
+on boot
+	chown system radio /dev/rtc1
+	chmod 0660 /dev/rtc1
+	chown system audio /dev/msm_preproc_ctl
+	chmod 0660 /dev/msm_preproc_ctl
+	chown system audio /dev/msm_pcm_dec
+	chmod 0660 /dev/msm_pcm_dec
+
+	chown root root /dev/system_bus_freq
+	chmod 0666 /dev/system_bus_freq
+	chown root root /dev/cpu_dma_latency
+	chmod 0666 /dev/cpu_dma_latency
+	
+	chown bluetooth bluetooth /sys/module/bluetooth_power/parameters/power
+    chown bluetooth bluetooth /sys/class/rfkill/rfkill0/type
+    chown bluetooth bluetooth /sys/class/rfkill/rfkill0/state
+	chown bluetooth bluetooth /proc/bluetooth/sleep/proto
+	chown system system /sys/module/sco/parameters/disable_esco
+	chmod 0660 /sys/module/bluetooth_power/parameters/power
+	chmod 0666 /sys/class/rfkill/rfkill0/type
+	chmod 0666 /sys/class/rfkill/rfkill0/state
+	chmod 0660 /proc/bluetooth/sleep/proto
+	chown bluetooth bluetooth /dev/ttyHS0
+	chmod 0666 /dev/ttyHS0
+	chmod 0666 /dev/msm_snd
+	mkdir /data/misc/hcid 0770 bluetooth bluetooth
+# VIBRATOR
+	chmod 0666 /sys/class/timed_output/vibrator/enable
+	chmod 0666 /sys/class/timed_output/vibrator/amp
+# SENSOR 
+	chmod 0666 dev/akm8973_aot
+	chmod 0666 dev/bma150
+	mkdir /data/radio 0770 radio radio
+#BEGIN 0008563: 2010-08-10 tei.kim@lge.com
+#ADD 0008563: [Swift MR] upport for touch key calibration
+# TOUCH
+	chmod 0666 dev/swift_tssc_cal
+#END 0008563: 2010-08-10 tei.kim@lge.com
+
+#BEGIN 0007303: 2010-06-17 tei.kim@lge.com
+#ADD 0007303: [Swift MR] change owner "composition" in sysfs to enable mass storage only mode 
+# MASS STORAGE ONLY MODE
+	chown system system /sys/devices/platform/msm_hsusb_periphera/composition
+#END 0007303: 2010-06-17 tei.kim@lge.com
+
+# BACKLIGHT
+	chown system system /sys/class/backlight/rt9393/brightness
+	chown system system /sys/class/backlight/rt9393/max_brightness
+	chown system graphics /dev/hw3d
+	chmod 0660 /dev/hw3d
+	chown system graphics /dev/kgsl
+	chmod 0666 /dev/kgsl
+	chmod 0666 /dev/pmem
+	chown system graphics /dev/pmem_gpu
+	chmod 0666 /dev/pmem
+	chown system graphics /dev/pmem_gpu1
+	chmod 0666 /dev/pmem_gpu1
+	chown system audio /dev/msm_aac
+	chmod 0660 /dev/msm_aac
+	chown system audio /dev/msm_amrnb_in
+	chmod 0660 /dev/msm_amrnb_in
+	chown system audio /dev/msm_amrnb
+	chmod 0660 /dev/msm_amrnb
+	chown system audio /dev/msm_qcelp
+	chmod 0660 /dev/msm_qcelp
+	chown system audio /dev/msm_evrc
+	chmod 0660 /dev/msm_evrc
+	chown system audio /dev/msm_voicememo
+	chmod 0660 /dev/msm_voicememo
+
+	chmod 0666 /dev/graphics/fb0
+# WIFI
+	chown system misc /data/misc/wifi
+	chmod 0771 /data/misc/wifi
+	mkdir /data/misc/wifi/sockets 0777 root root
+	mkdir /data/disk 0777 system system
+
+#DHCP
+	mkdir /data/misc/dhcp 0777 system system
+
+## ERS
+    mkdir /data/data/com.lge.ers
+    mkdir /data/data/com.lge.ers/android
+    mkdir /data/data/com.lge.ers/kernel
+    mkdir /data/data/com.lge.ers/arm9
+    chmod 0777 /data/data/com.lge.ers/android
+    chmod 0777 /data/data/com.lge.ers/kernel
+    chmod 0777 /data/data/com.lge.ers/arm9
+
+# Collect ramconsole data
+	copy /proc/last_kmsg /data/dontpanic/last_kmsg
+	chown root log /data/dontpanic/last_kmsg
+	chmod 0640 /data/dontpanic/last_kmsg
+
+## BEGIN 0007196 ki.kim@lge.com 2010-06-15
+## ADD 0007196: [Hidden Reset] Hidden Reset Configuation
+# hidden reset
+	chmod 0666 /sys/module/pm2/parameters/hidden_reset
+## END 0007196 ki.kim@lge.com 2010-06-15
+
+## BEGIN 0008715 wongu.kang@lge.com 2010-08-11
+## REM 0008715: [swiftmr][logmein] Remove logmein package 
+#   REMOVED
+## END 0008715 wongu.kang@lge.com 2010-08-11
+
+on property:init.svc.hcid=running
+	write /sys/devices/virtual/bluetooth/hci0/idle_timeout 7000
+
+#BEGIN 0006704: 2010-06-04 sh.kwon@lge.com
+#ADD 0006704: enable ERS
+service lge_ers_rpcd /system/bin/lge_ers_rpcd
+	disabled
+	
+on property:ro.build.type=eng
+	stop lge_ers_rpcd
+	start lge_ers_rpcd
+
+#BEGIN 0006894: 2010-06-07 sh.kwon@lge.com
+#ADD 0006894: change tag of ERS for Official version
+on property:ro.build.type=user
+	stop lge_ers_rpcd
+	start lge_ers_rpcd
+#END 0006894: 2010-06-07 sh.kwon@lge.com
+
+on property:ro.build.type=userdebug
+	stop lge_ers_rpcd
+	start lge_ers_rpcd
+
+#END 0006704: enable ERS
+
+## BT
+
+# //BEGIN: Broadcom_update munho.lee@lge.com 2010-06-09
+# +++ BRCM +++
+# Make sure we startup btld before bluetoothd
+# Set target address to emulator host loopback IF
+# Limit baudrate to 460800 to ensure reliable uart operation
+# // BEGIN : munho.lee@lge.com 2010-07-05
+# // MOD :0007872: [SWIFT MR] [BT] Bluesleep driver setting 
+# service btld /system/bin/logwrapper /system/bin/btld
+service btld /system/bin/logwrapper /system/bin/btld -lpm 1
+# // END : munho.lee@lge.com 2010-07-05
+    user root			
+    group bluetooth net_bt_admin			
+    disabled			
+    oneshot			
+				
+service bluetoothd /system/bin/bluetoothd -n			
+    socket bluetooth stream 660 bluetooth bluetooth			
+    socket dbus_bluetooth stream 660 bluetooth bluetooth			
+    # init.rc does not yet support applying capabilities, so run as root and			
+    # let bluetoothd drop uid to bluetooth with the right linux capabilities			
+    group bluetooth net_bt_admin misc			
+    disabled			
+
+service hciattach /system/bin/brcm_patchram_plus -r --enable_hci \
+    --enable_lpm --baudrate 4000000 \
+    --patchram /system/bin/BCM4325D1.hcd /dev/ttyHS1
+
+# service hciattach /system/bin/sh /system/etc/init.qcom.bt.sh
+#     user bluetooth
+#    group qcom_oncrpc bluetooth net_bt_admin
+#    disabled
+#    oneshot
+
+# service hcid /system/bin/hcid -s -n -f /etc/bluez/hcid.conf
+#     socket bluetooth stream 660 bluetooth bluetooth
+    socket dbus_bluetooth stream 660 bluetooth bluetooth
+#    # init.rc does not yet support applying capabilities, so run as root and
+#    # let hcid drop uid to bluetooth with the right linux capabilities
+#    group bluetooth net_bt_admin misc
+#    disabled
+
+# service hfag /system/bin/sdptool add --channel=10 HFAG
+#    user bluetooth
+#    group bluetooth net_bt_admin
+#    disabled
+#    oneshot
+
+# service hsag /system/bin/sdptool add --channel=11 HSAG
+#    user bluetooth
+#    group bluetooth net_bt_admin
+#    disabled
+#    oneshot
+# --- BRCM ---
+#LGE_UPDATE_END 2010-02-15
+# //END: Broadcom_update munho.lee@lge.com
+
+## WIFI
+service wpa_supplicant /system/bin/logwrapper /system/bin/wpa_supplicant -Dwext -iwlan0 -c/data/misc/wifi/wpa_supplicant.conf #-dd
+        disabled
+        oneshot
+
+service dhcpcd /system/bin/dhcpcd -B wlan0
+        disabled
+        oneshot
+
+on property:init.svc.wpa_supplicant=stopped
+	stop dhcpcd
+
+service qmuxd /system/bin/qmuxd 
+
+#LG_FW_USB
+#service port-bridge /system/bin/port-bridge /dev/smd0 /dev/ttyGS0 
+service port-bridge /system/bin/port-bridge /dev/smd0 /dev/ttyHSUSB0
+
+service ami602d /system/bin/akmd2
+
+service dhcp-service /system/bin/netcfg eth0 dhcp
+	oneshot
+
+service qcom-post-boot /system/bin/sh /init.qcom.post_boot.sh
+	user root
+	oneshot
+
+on property:dev.bootcomplete=1
+	stop dhcp-service
+	start dhcp-service
+	start qcom-post-boot
+## BEGIN 0008174 wongu.kang@lge.com 2010-07-20
+## REM 0008174: [swiftmr][logmein] Remove thirdpary-logmein package 
+#	start rescue_starter
+## END 0008174 wongu.kang@lge.com 2010-07-20
+#BEGIN 0007213: 2010-06-15 sh.kwon@lge.com
+#ADD 0007213: disable other bugreporter
+# bugreport is triggered by the KEY_VOLUME_DOWN and KEY_MENU keycodes
+#service bugreport /system/bin/logwrapper /system/bin/dumpstate -d -v -o /sdcard/bugreports/bugreport
+#	disabled
+#	oneshot
+#	keycodes 114 139
+# bugreport is triggered by the VOLUME_DOWN + CALL + SEARCH keycodes
+service lockup_dump /system/bin/lockup_dump
+	user root
+	group root
+	disabled
+	oneshot
+	keycodes 114 231 217
+#END 0007213: 2010-06-15 sh.kwon@lge.com
+
+#BEGIN 0007710: 2010-07-02 tei.kim@lge.com
+#ADD 0007710: [SWIFT MR] change the parameters related with vm
+	write /proc/sys/vm/oom_dump_tasks 1
+	write /proc/sys/vm/overcommit_memory 0
+	write /proc/sys/vm/min_free_kbytes 3000
+#END 0007710: 2010-07-02 tei.kim@lge.com
+
+## BEGIN 0007196 ki.kim@lge.com 2010-06-15
+## ADD 0007196: [Hidden Reset] Hidden Reset Configuation
+on property:persist.sys.config.hiddenreset=true
+	write /sys/module/pm2/parameters/hidden_reset 1
+## END 0007196 ki.kim@lge.com 2010-06-15
+

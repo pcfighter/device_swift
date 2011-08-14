@@ -1,0 +1,25 @@
+#------------------------------------------------------------------------------
+# LGDRM Solution Configuration
+#------------------------------------------------------------------------------
+
+LGDRMLIB_USE_EXPAT=yes
+LGDRMLIB_USE_LIBWBXML=yes
+
+#--------------------- DRM Include --------------------------------------------
+LGDRM_PATHS= DrmComm Include Adapt/Include
+DRMINC_FALG=0
+
+ifeq ($(LGDRMLIB_USE_EXPAT), yes)
+LGDRM_PATHS:= $(LGDRM_PATHS) Expat
+endif
+
+ifeq ($(LGDRMLIB_USE_LIBWBXML), yes)
+LGDRM_PATHS:= $(LGDRM_PATHS) WBXmllib
+endif
+
+#------------------ FLAG ------------------------------------------------------
+LGDRM_DEFAULT_PATHS = $(LGDRM_PATHS)
+LGDRM_DEFAULT_APPFLAG = \
+		-Wno-pointer-sign -Wno-missing-field-initializers -Wno-missing-braces \
+		-Wno-switch -Wno-error=address
+#------------------ FLAG ------------------------------------------------------

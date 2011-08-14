@@ -1,0 +1,8681 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<!-- use empty string to specify no proxy or port -->
+
+<!-- If you edit this version, also edit the version in the partner-supplied 
+    apns-conf.xml configuration file --> 
+<apns version="6">
+<!-- GW620 Eve setting Starts -->		
+  <!-- GB O2 default and MMS -->
+<!--Desh Deepak uncommented on 12/08/2010 -->	
+<apn carrier="O2 Pay monthly"
+		mcc="234" 
+		mnc="10" 
+		spn="FF"
+		apn="wap.o2.co.uk"
+		user="o2wap" 
+		server="" 
+		password="password" 
+		authtype="0" 
+		proxy="193.113.200.195" 
+		port="8080"
+		mmsproxy="193.113.200.195" 
+		mmsport="8080" 
+		mmsc="http://mmsc.mms.o2.co.uk:8002"
+		type=""
+		preferapp="" />   
+		
+		
+<!--Desh Deepak commented on 12/08/2010 -->
+<!--
+		<apn carrier="O2 Pay monthly"
+		mcc="234" 
+		mnc="10" 
+		spn="FF"
+		apn="wap.o2.co.uk"
+		user="o2wap" 
+		server="" 
+		password="password" 
+		authtype="0" 
+		proxy="193.113.200.195" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+
+<apn carrier="O2 Pay monthly"
+		mcc="234" 
+		mnc="10" 
+		spn="FF"
+		apn=""
+		user="" 
+		server="" 
+		password="" 
+		authtype="0" 
+		proxy="" 
+		port=""
+		mmsproxy="193.113.200.195" 
+		mmsport="8080" 
+		mmsc="http://mmsc.mms.o2.co.uk:8002"
+		type="mms"
+		preferapp="" />
+  -->
+  <!-- GB O2_PrePaid default & MMS -->
+<!--Desh Deepak uncommented on 12/08/2010 -->
+  	<apn carrier="O2 Pay and Go"
+		mcc="234" 
+		mnc="10" 
+		spn="FF"
+		apn="payandgo.o2.co.uk"
+		user="payandgo" 
+		server="" 
+		password="password" 
+		authtype="0"
+		proxy="193.113.200.195" 
+		port="8080"
+		mmsproxy="193.113.200.195" 
+		mmsport="8080" 
+		mmsc="http://mmsc.mms.o2.co.uk:8002"
+		type=""
+		preferapp="" />  
+<!--Desh Deepak commented on 12/08/2010 -->
+<!--
+		<apn carrier="O2 Pay and Go"
+		mcc="234" 
+		mnc="10" 
+		spn="FF"
+		apn="payandgo.o2.co.uk"
+		user="payandgo" 
+		server="" 
+		password="password" 
+		authtype="0"
+		proxy="193.113.200.195" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+
+		<apn carrier="O2 Pay and Go"
+		mcc="234" 
+		mnc="10" 
+		spn="FF"
+		apn="payandgo.o2.co.uk"
+		user="payandgo" 
+		server="" 
+		password="password" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="193.113.200.195" 
+		mmsport="8080" 
+		mmsc="http://mmsc.mms.o2.co.uk:8002"
+		type="mms"
+		preferapp="" />
+-->		  
+  <!-- GB ASDA default and MMS -->
+<!--Desh Deepak uncommented on 12/08/2010 -->
+	<apn carrier="ASDA WAP" 
+		mcc="234" 
+		mnc="15" 
+		spn="A0"
+		apn="asdamobiles.co.uk"
+		user="wap" 
+		server="" 
+		password="wap" 
+		authtype="0"
+		proxy="212.183.137.012" 
+		port="8799"
+		mmsproxy="212.183.137.012" 
+		mmsport="8799" 
+		mmsc="http://mms.asdamobiles.co.uk/servlets/mms"
+		type=""
+		preferapp="" /> 
+<!--Desh Deepak commented on 12/08/2010 -->
+<!--
+		<apn carrier="ASDA WAP" 
+		mcc="234" 
+		mnc="15" 
+		spn="A0"
+		apn="asdamobiles.co.uk"
+		user="wap" 
+		server="" 
+		password="wap" 
+		authtype="0"
+		proxy="212.183.137.012" 
+		port="8799"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+-->
+<!--Desh Deepak modified name of MMS profile,user,password settings on 02/08/2010 -->
+<!--Desh Deepak commented on 12/08/2010 -->
+<!--
+		<apn carrier="ASDA MMS" 
+		mcc="234" 
+		mnc="15" 
+		spn="A0"
+		apn="asdamobiles.co.uk"
+		user="wap" 
+		server="" 
+		password="wap" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="212.183.137.012" 
+		mmsport="8799" 
+		mmsc="http://mms.asdamobiles.co.uk/servlets/mms"
+		type="mms"
+		preferapp="" />
+-->
+<!--Desh Deepak End -->
+		
+  <!-- GB H3G default and MMS -->
+  <!--Desh Deepak uncommented on 12/08/2010 -->
+	<apn carrier="3" 
+		mcc="234" 
+		mnc="20" 
+		apn="three.co.uk"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="mms.three.co.uk" 
+		mmsport="8799" 
+		mmsc="http://mms.um.three.co.uk:10021/mmsc"
+		type=""
+		preferapp="" /> 
+<!--Desh Deepak commented on 12/08/2010 -->
+<!--
+		<apn carrier="3 Services" 
+		mcc="234" 
+		mnc="20" 
+		apn="three.co.uk"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+-->
+<!--Desh Deepak modified name of MMS profile on 02/08/2010 -->
+<!--		<apn carrier="Multimedia Message" 
+		mcc="234" 
+		mnc="20" 
+		apn="three.co.uk"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="mms.three.co.uk" 
+		mmsport="8799" 
+		mmsc="http://mms.um.three.co.uk:10021/mmsc"
+		type="mms"
+		preferapp="" />
+-->
+<!--Desh Deepak End -->
+		
+  <!-- GB ORG default-->
+	<apn carrier="Orange Internet" 
+		mcc="234" 
+		mnc="33" 
+		apn="orangeinternet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+  
+  <!-- GB ORG MMS-->
+	<apn carrier="Orange MMS" 
+		mcc="234" 
+		mnc="33" 
+		apn="orangemms"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="192.168.224.010" 
+		mmsport="8080" 
+		mmsc="http://mms.orange.co.uk/"
+		type="mms"
+		preferapp="" />
+		
+  <!-- GB TalkMobile default-->
+	<apn carrier="Talkmob WAP" 
+		mcc="234" 
+		mnc="15" 
+		spn="C1"
+		apn="talkmobile.co.uk"
+		user="wap" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="212.183.137.012" 
+		port="8799"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+  
+  <!-- GB TalkMobile MMS-->
+	<apn carrier="Talkmob PAYG MMS" 
+		mcc="234" 
+		mnc="15" 
+		spn="C1"
+		apn="payg.talkmobile.co.uk"
+		user="wap" 
+		server="" 
+		password="wap" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="212.183.137.012" 
+		mmsport="8799" 
+		mmsc="http://mms.talkmobile.co.uk/servlets/mms"
+		type="mms"
+		preferapp="" />
+		
+		
+<!-- vijayaraghava/yogish added on 4/5/10 As per UK  LTM Leo -->
+<apn carrier="Talkmob PAYG WAP" 
+		mcc="234" 
+		mnc="15" 
+		spn="C1"
+		apn="payg.talkmobile.co.uk"
+		user="wap" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="212.183.137.012" 
+		port="8799"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+  
+  <!-- GB TalkMobile MMS-->
+	<apn carrier="Talkmob MMS" 
+		mcc="234" 
+		mnc="15" 
+		spn="C1"
+		apn="talkmobile.co.uk"
+		user="wap" 
+		server="" 
+		password="wap" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="212.183.137.012" 
+		mmsport="8799" 
+		mmsc="http://mms.talkmobile.co.uk/servlets/mms"
+		type="mms"
+		preferapp="" />
+<!-- vijayaraghava/yogish added on 4/5/10 As per UK  LTM Leo -->
+  <!-- GB Tesco default and MMS -->
+  <!--Desh Deepak uncommented on 12/08/2010 -->
+ 	<apn carrier="Tesco WAP GPRS" 
+		mcc="234" 
+		mnc="10" 
+		spn="0A"
+		apn="prepay.tesco-mobile.com"
+		user="tescowap" 
+		server="" 
+		password="password" 
+		authtype="0"
+		proxy="193.113.200.195" 
+		port="8080"
+		mmsproxy="193.113.200.195" 
+		mmsport="8080" 
+		mmsc="http://mmsc.mms.o2.co.uk:8002"
+		type=""
+		preferapp="" /> 
+		
+<!--Desh Deepak commented on 12/08/2010 -->
+		<!--
+		<apn carrier="Tesco WAP GPRS" 
+		mcc="234" 
+		mnc="10" 
+		spn="0A"
+		apn="prepay.tesco-mobile.com"
+		user="tescowap" 
+		server="" 
+		password="password" 
+		authtype="0"
+		proxy="193.113.200.195" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+
+		<apn carrier="Tesco WAP GPRS" 
+		mcc="234" 
+		mnc="10" 
+		spn="0A"
+		apn="prepay.tesco-mobile.com"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="193.113.200.195" 
+		mmsport="8080" 
+		mmsc="http://mmsc.mms.o2.co.uk:8002"
+		type="mms"
+		preferapp="" />
+
+		-->
+  <!-- GB T-Mobile default and MMS -->
+  <!--Desh Deepak uncommented on 12/08/2010 -->
+	<apn carrier="T-Mobile Internet" 
+		mcc="234" 
+		mnc="30" 
+		spn="FF"
+		apn="general.t-mobile.uk"
+		user="t-mobile" 
+		server="" 
+		password="tm" 
+		authtype="0"
+		proxy=""
+		port=""
+		mmsproxy="149.254.201.135" 
+		mmsport="8080" 
+		mmsc="http://mmsc.t-mobile.co.uk:8002"
+		type=""
+		preferapp="" />  
+		
+<!--Desh Deepak commented on 12/08/2010 -->
+<!--		
+
+		<apn carrier="T-Mobile Internet" 
+		mcc="234" 
+		mnc="30" 
+		spn="FF"
+		apn="general.t-mobile.uk"
+		user="t-mobile" 
+		server="" 
+		password="tm" 
+		authtype="0"
+		proxy=""
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+-->
+<!--Desh Deepak modified the name,user,password settings of MMS profile on 02/08/2010 -->
+<!--
+		<apn carrier="T-Mobile PictureMessage" 
+		mcc="234" 
+		mnc="30" 
+		spn="FF"
+		apn="general.t-mobile.uk"
+		user="t-mobile" 
+		server="" 
+		password="tm" 
+		authtype="0"
+		proxy=""
+		port=""
+		mmsproxy="149.254.201.135" 
+		mmsport="8080" 
+		mmsc="http://mmsc.t-mobile.co.uk:8002"
+		type="mms"
+		preferapp="" />
+-->
+<!--Desh Deepak End -->
+		
+  <!-- GB T-Mobile default and MMS -->
+  <!--Desh Deepak uncommented on 12/08/2010 -->
+ 	<apn carrier="T-Mobile Internet" 
+		mcc="234" 
+		mnc="31" 
+		apn="general.t-mobile.uk"
+		user="t-mobile" 
+		server="" 
+		password="tm"
+		authtype="0"
+		proxy=""
+		port=""
+		mmsproxy="149.254.201.135" 
+		mmsport="8080" 
+		mmsc="http://mmsc.t-mobile.co.uk:8002"
+		type=""
+		preferapp="" /> 
+		
+  <!--Desh Deepak commented on 12/08/2010 -->
+<!--
+		<apn carrier="T-Mobile Internet" 
+		mcc="234" 
+		mnc="31" 
+		apn="general.t-mobile.uk"
+		user="t-mobile" 
+		server="" 
+		password="tm"
+		authtype="0"
+		proxy=""
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+-->
+		<!--Desh Deepak modified the name,user,password settings of MMS profile on 02/08/2010 -->
+<!--
+		<apn carrier="T-Mobile PictureMessage" 
+		mcc="234" 
+		mnc="31" 
+		spn="FF"
+		apn="general.t-mobile.uk"
+		user="t-mobile" 
+		server="" 
+		password="tm" 
+		authtype="0"
+		proxy=""
+		port=""
+		mmsproxy="149.254.201.135" 
+		mmsport="8080" 
+		mmsc="http://mmsc.t-mobile.co.uk:8002"
+		type="mms"
+		preferapp="" />
+-->
+<!--Desh Deepak End -->
+
+		
+  <!-- GB T-Mobile default and MMS -->
+  <!--Desh Deepak uncommented on 12/08/2010 -->
+	<apn carrier="T-Mobile Internet" 
+		mcc="234" 
+		mnc="32" 
+		apn="general.t-mobile.uk"
+		user="t-mobile" 
+		server="" 
+		password="tm" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="149.254.201.135" 
+		mmsport="8080" 
+		mmsc="http://mmsc.t-mobile.co.uk:8002"
+		type=""
+		preferapp="" /> 
+		
+<!--Desh Deepak commented on 12/08/2010 -->
+<!--
+		<apn carrier="T-Mobile Internet" 
+		mcc="234" 
+		mnc="32" 
+		apn="general.t-mobile.uk"
+		user="t-mobile" 
+		server="" 
+		password="tm" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+-->
+		<!--Desh Deepak modified the name,user,password settings of MMS profile on 02/08/2010 -->
+<!--
+		<apn carrier="T-Mobile PictureMessage" 
+		mcc="234" 
+		mnc="32" 
+		spn="FF"
+		apn="general.t-mobile.uk"
+		user="t-mobile" 
+		server="" 
+		password="tm" 
+		authtype="0"
+		proxy=""
+		port=""
+		mmsproxy="149.254.201.135" 
+		mmsport="8080" 
+		mmsc="http://mmsc.t-mobile.co.uk:8002"
+		type="mms"
+		preferapp="" />
+-->
+<!--Desh Deepak End -->
+		
+
+  <!--Sameer modified on 09/11/2009 1)Virgin GPRS to Virgin Media Mobile Internet 2)WAP proxy port and adress removed-->
+  <!-- GB Virgin default and MMS -->
+  <!--Desh Deepak uncommented on 12/08/2010 -->
+	<apn carrier="Virgin Media Mobile Internet" 
+		mcc="234" 
+		mnc="30" 
+    		spn="28"
+		apn="goto.virginmobile.uk"
+		user="user" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="193.030.166.002" 
+		mmsport="8080" 
+		mmsc="http://mms.virginmobile.co.uk:8002"
+		type=""
+		preferapp="" /> 
+<!--Desh Deepak commented on 12/08/2010 -->
+<!--
+		<apn carrier="Virgin Media Mobile Internet" 
+		mcc="234" 
+		mnc="30" 
+    	spn="28"
+		apn="goto.virginmobile.uk"
+		user="user" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+-->
+<!--Desh Deepak modified name,user settings for MMS profile on 02/08/2010 -->
+<!--Desh Deepak commented on 12/08/2010 -->
+<!--
+		<apn carrier="Virgin MMS" 
+		mcc="234" 
+		mnc="30" 
+    	spn="28"
+		apn="goto.virginmobile.uk"
+		user="user" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="193.030.166.002" 
+		mmsport="8080" 
+		mmsc="http://mms.virginmobile.co.uk:8002"
+		type="mms"
+		preferapp="" />
+-->
+	<!--Desh Deepak End -->
+
+		
+  <!-- GB VDF default and MMS vijayaraghava.rc@lge.com modified on 05/03/10 as per senthilvel doc proxy & port removed -->
+<!--Desh Deepak uncommented on 12/08/2010 -->	
+		<apn carrier="Contract WAP" 
+		mcc="234" 
+		mnc="15" 
+		spn="FF"
+		apn="wap.vodafone.co.uk"
+		user="wap" 
+		server="" 
+		password="wap"
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="212.183.137.012" 
+		mmsport="8799" 
+		mmsc="http://mms.vodafone.co.uk/servlets/mms"
+		type=""
+		preferapp="" /> 		
+
+<!--Desh Deepak commented on 12/08/2010 -->
+<!--
+
+		<apn carrier="Contract WAP" 
+		mcc="234" 
+		mnc="15" 
+		spn="FF"
+		apn="wap.vodafone.co.uk"
+		user="wap" 
+		server="" 
+		password="wap"
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+-->
+<!--Desh Deepak modified user,password settings for MMS profile on 02/08/2010 -->
+<!--		
+		<apn carrier="Contract WAP" 
+		mcc="234" 
+		mnc="15" 
+		spn="FF"
+		apn="wap.vodafone.co.uk"
+		user="wap" 
+		server="" 
+		password="wap"
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="212.183.137.012" 
+		mmsport="8799" 
+		mmsc="http://mms.vodafone.co.uk/servlets/mms"
+		type="mms"
+		preferapp="" />
+-->
+<!--Desh Deepak End -->
+
+<!--Desh Deepak added for BUG ID 4074 VDF profiles START on 24/03/2010-->
+<!-- vijayaraghava.rc commented on 05/03/10
+<apn carrier="Contract Internet" 
+		mcc="234" 
+		mnc="15" 
+		spn="FF"
+		apn="internet"
+		user="web" 
+		server="" 
+		password="web" 
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 	
+-->
+ <!-- GB VDF PAYG WAP vijayaraghava.rc@lge.com modified on 05/03/10 as per senthilvel doc proxy & port removed -->		
+<!--Desh Deepak uncommented on 12/08/2010 --> 
+		<apn carrier="PAYG WAP" 
+		mcc="234" 
+		mnc="15" 
+		spn="FF"
+		apn="pp.vodafone.co.uk"
+		user="wap" 
+		server="" 
+		password="wap"
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="212.183.137.012" 
+		mmsport="8799" 
+		mmsc="http://mms.vodafone.co.uk/servlets/mms"
+		type=""
+		preferapp="" /> 	
+		
+
+<!--Desh Deepak commented on 12/08/2010 -->
+<!--
+		<apn carrier="PAYG WAP" 
+		mcc="234" 
+		mnc="15" 
+		spn="FF"
+		apn="pp.vodafone.co.uk"
+		user="wap" 
+		server="" 
+		password="wap"
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+-->
+<!--Desh Deepak modified user,password settings for MMS profile on 02/07/2010 -->
+<!--		<apn carrier="PAYG WAP" 
+		mcc="234" 
+		mnc="15" 
+		spn="FF"
+		apn="pp.vodafone.co.uk"
+		user="wap" 
+		server="" 
+		password="wap"
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="212.183.137.012" 
+		mmsport="8799" 
+		mmsc="http://mms.vodafone.co.uk/servlets/mms"
+		type="mms"
+		preferapp="" />
+-->		
+<!--Desh Deepak End -->
+
+<!-- vijayaraghava.rc commented on 05/03/10
+		<apn carrier="PAYG Internet" 
+		mcc="234" 
+		mnc="15" 
+		spn="FF"
+		apn="pp.vodafone.co.uk"
+		user="web" 
+		server="" 
+		password="web" 
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 	
+-->
+	
+<!--Desh Deepak END-->
+		
+<!--Desh Deepak modified name of profile from ERA Internet-> blueconnect as per PRI on 27/04/2010-->
+  <!-- PL ERA default-->
+	<apn carrier="blueconnect" 
+		mcc="260" 
+		mnc="02" 
+		apn="erainternet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+  <!--Desh Deepak END-->
+
+     <!-- PL ERA MMS-->
+	<apn carrier="Era MMS" 
+		mcc="260" 
+		mnc="02" 
+		apn="eramms"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="213.158.194.226" 
+		mmsport="8080" 
+		mmsc="http://mms.era.pl/servlets/mms"
+		type="mms"
+		preferapp="" />				
+  <!-- PL GADU GADU default-->
+  <!--//vijayaraghava.rc@lge.com commented on 16/4.10 Gadu-Gadu and Heyah profiles as per TD-ID:4269 ,4295
+	<apn carrier="Gadu-Gadu Internet" 
+		mcc="260" 
+		mnc="01" 
+		apn="internet.gadu-gadu.pl"
+		user="" 
+		server="" 
+		password="" 
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+    
+
+	<apn carrier="Gadu-Gadu MMS" 
+		mcc="260" 
+		mnc="01" 
+		apn="mms.gadu-gadu.pl"
+		user="" 
+		server="" 
+		password="" 
+		proxy="" 
+		port=""
+		mmsproxy="212.002.096.016" 
+		mmsport="8080" 
+		mmsc="http://mms.gadu-gadu.pl:8002"
+		type="mms"
+		preferapp="" /> 		
+
+	<apn carrier="Heyah WAP" 
+		mcc="260" 
+		mnc="02" 
+		apn="heyah.pl"
+		user="heyah" 
+		server="" 
+		password="heyah" 
+		proxy="213.158.194.229" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+	<apn carrier="Heyah Internet" 
+		mcc="260" 
+		mnc="02" 
+		apn="heyah.pl"
+		user="heyah" 
+		server="" 
+		password="heyah" 
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 		
+  
+
+	<apn carrier="Heyah MMS" 
+		mcc="260" 
+		mnc="02" 
+		apn="heyahmms"
+		user="heyah" 
+		server="" 
+		password="heyah" 
+		proxy="" 
+		port=""
+		mmsproxy="213.158.194.226" 
+		mmsport="8080" 
+		mmsc="http://mms.heyah.pl/servlets/mms"
+		type="mms"
+		preferapp="" />
+  -->	
+    <!-- vijayaraghava.rc END -->
+  <!-- PL ORG default-->
+	<apn carrier="Orange Internet" 
+		mcc="260" 
+		mnc="03" 
+		apn="internet"
+		user="internet" 
+		server="" 
+		password="internet" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+  
+  <!-- PL ORG MMS-->
+	<apn carrier="Orange MMS" 
+		mcc="260" 
+		mnc="03" 
+		apn="mms"
+		user="mms" 
+		server="" 
+		password="mms"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="192.168.006.104" 
+		mmsport="8080" 
+		mmsc="http://mms.orange.pl"
+		type="mms"
+		preferapp="" />
+		
+  <!-- PL Play default-->
+	<apn carrier="Play Internet" 
+		mcc="260" 
+		mnc="06" 
+		apn="internet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+  
+  <!-- PL Play MMS-->
+	<apn carrier="Play MMS" 
+		mcc="260" 
+		mnc="06" 
+		apn="mms"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="010.010.025.005" 
+		mmsport="8080" 
+		mmsc="http://10.10.28.164/mms/wapenc"
+		type="mms"
+		preferapp="" />
+		
+ 
+ <!-- PL Plus Internet -->
+	<apn carrier="Plus Internet" 
+		mcc="260" 
+		mnc="01" 
+		apn="internet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+		
+  <!-- PL Plus MMS-->
+	<apn carrier="Plus MMS" 
+		mcc="260" 
+		mnc="01" 
+		apn="mms.plusgsm.pl"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="212.002.096.016" 
+		mmsport="8080" 
+		mmsc="http://mms.plusgsm.pl:8002/"
+		type="mms"
+		preferapp="" />
+		
+		
+		
+  <!-- PT Optimus default and MMS -->
+<!--	<apn carrier="PortalOptimus" 
+		mcc="268" 
+		mnc="03" 
+		apn="umts"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="062.169.066.005" 
+		port="8799"
+		mmsproxy="062.169.066.005" 
+		mmsport="8799" 
+		mmsc="http://mmsc:10021/mmsc"
+		type=""
+		preferapp="" /> 
+  -->
+
+  <apn carrier="PortalOptimus" 
+		mcc="268" 
+		mnc="03" 
+		apn="umts"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="062.169.066.005" 
+		port="8799"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+		<apn carrier="PortalOptimus" 
+		mcc="268" 
+		mnc="03" 
+		apn="umts"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="062.169.066.005" 
+		mmsport="8799" 
+		mmsc="http://mmsc:10021/mmsc"
+		type="mms"
+		preferapp="" /> 
+
+    <!-- PT TMN default-->
+	<!--Sameer added for streaming profile apn-->
+	<!-- updated title by archana -->
+	<apn carrier="TMN Internet"
+	    mcc="268"
+		mnc="06"
+		apn="internet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+   	<!--Rajesh I9 TMN profile removed as per Carlos Request as this Profile will not work with android TD: ID: 40960-->
+  
+  <!-- PT TMN MMS-->
+	<apn carrier="MMS TMN" 
+		mcc="268" 
+		mnc="06" 
+		apn="mmsc.tmn.pt"
+		user="tmn" 
+		server="" 
+		password="tmnnet" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="010.111.002.016"
+		mmsport="8080" 
+		mmsc="http://mmsc/"
+		type="mms"
+		preferapp="" />
+		
+  <!-- PT VDF default-->
+   	<!--Rajesh Vodafone Live profile removed as per Carlos Request as this Profile will not work with android TD: ID: 40960-->
+      <apn carrier="Internet Vodafone"
+	    mcc="268"
+		mnc="01"
+		apn="internet.vodafone.pt"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp=""/>
+   
+
+
+  <!-- PT VDF MMS-->
+	<apn carrier="MMS Vodafone" 
+		mcc="268" 
+		mnc="01" 
+		apn="vas.vodafone.pt"
+		user="vas" 
+		server="" 
+		password="vas" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="213.030.027.063" 
+		mmsport="8799" 
+		mmsc="http://mms/servlets/mms"
+		type="mms"
+		preferapp="" />
+
+ <!-- PORTUGAL - ZON -->
+ <!--Desh Deepak Added Zon profile as per PRI on 29/07/2010-->
+  <!-- Added proxy and port and apn by archana -->
+
+		<apn carrier="ZON WAP" 
+		mcc="268" 
+		mnc="01" 
+		spn="ZON"
+		apn="wap.zon.pt"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="213.030.027.051" 
+		port="8799"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+
+		<apn carrier="ZON MMS" 
+		mcc="268" 
+		mnc="01" 
+		spn="ZON"
+		apn="vas.zon.pt"
+		user="vas" 
+		server="" 
+		password="vas" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="213.030.027.063" 
+		mmsport="8799" 
+		mmsc="http://mms/servlets/mms"
+		type="mms"
+		preferapp="" />
+
+<!-- Desh Deepak End -->
+		
+  <!-- SW 3SE default and MMS -->
+ <!-- 	<apn carrier="Planet 3" 
+		mcc="240" 
+		mnc="02" 
+		apn="data.tre.se"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="mmsproxy.tre.se" 
+		mmsport="8799" 
+		mmsc="http://mms.tre.se"
+		type=""
+		preferapp="" /> -->
+
+		<apn carrier="Planet 3" 
+		mcc="240" 
+		mnc="02" 
+		apn="data.tre.se"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+
+		<apn carrier="Planet 3" 
+		mcc="240" 
+		mnc="02" 
+		apn="data.tre.se"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="mmsproxy.tre.se" 
+		mmsport="8799" 
+		mmsc="http://mms.tre.se"
+		type="mms"
+		preferapp="" />
+
+ 
+  <!-- SW 3SE default and MMS -->
+ <!--	<apn carrier="Planet 3" 
+		mcc="240" 
+		mnc="04" 
+		apn="data.tre.se"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="mmsproxy.tre.se" 
+		mmsport="8799" 
+		mmsc="http://mms.tre.se"
+		type=""
+		preferapp="" /> -->
+
+		<apn carrier="Planet 3" 
+		mcc="240" 
+		mnc="04" 
+		apn="data.tre.se"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+
+		<apn carrier="Planet 3" 
+		mcc="240" 
+		mnc="04" 
+		apn="data.tre.se"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="mmsproxy.tre.se" 
+		mmsport="8799" 
+		mmsc="http://mms.tre.se"
+		type="mms"
+		preferapp="" />
+
+				
+  <!-- SW Tele2 default and MMS -->
+<!-- 	<apn carrier="Tele2 WAP" 
+		mcc="240" 
+		mnc="05" 
+		spn="Tele2"
+		apn="internet.tele2.se"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="130.244.196.090" 
+		port="8080"
+		mmsproxy="130.244.202.30" 
+		mmsport="8080" 
+		mmsc="http://mmsc.tele2.se"
+		type=""
+		preferapp="" /> -->
+
+		<apn carrier="Tele2 WAP" 
+		mcc="240" 
+		mnc="05" 
+		spn="Tele2"
+		apn="internet.tele2.se"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="130.244.196.090" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+
+		<apn carrier="Tele2 WAP" 
+		mcc="240" 
+		mnc="05" 
+		spn="Tele2"
+		apn="internet.tele2.se"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="130.244.202.30" 
+		mmsport="8080" 
+		mmsc="http://mmsc.tele2.se"
+		type="mms"
+		preferapp="" />
+		
+  <!-- SW Tele2 default and MMS -->
+ <!--	<apn carrier="Tele2 WAP" 
+		mcc="240" 
+		mnc="07"
+		apn="internet.tele2.se"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="130.244.196.090" 
+		port="8080"
+		mmsproxy="130.244.202.30" 
+		mmsport="8080" 
+		mmsc="http://mmsc.tele2.se"
+		type=""
+		preferapp="" /> 
+		 -->
+
+		 <apn carrier="Tele2 WAP" 
+		mcc="240" 
+		mnc="07"
+		apn="internet.tele2.se"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="130.244.196.090" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+		<apn carrier="Tele2 MMS" 
+		mcc="240" 
+		mnc="07"
+		apn="internet.tele2.se"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="130.244.202.30" 
+		mmsport="8080" 
+		mmsc="http://mmsc.tele2.se"
+		type="mms"
+		preferapp="" /> 
+
+  <!-- SW Tele2 Streaming -->
+	<apn carrier="Tele2 Streaming" 
+		mcc="240" 
+		mnc="07"
+		apn="internet.tele2.se"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+<!-- senthilvel added tele2 norway profile to sweden mcc and mnc as per mr.Perjman request start -->
+ <!-- vijayaraghava.rc uncommented  all 3 profiles and mnc added tele2 norway on 29\4\10 as per TD-ID:7389-->
+
+	<apn carrier="Tele2 WAP" 
+		mcc="240" 
+		mnc="07"
+		spn="2400768"
+		apn="internet.tele2.no"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="130.244.196.090" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+	
+	<apn carrier="Tele2 Streaming" 
+		mcc="240" 
+		mnc="07"
+		spn="2400768"
+		apn="internet.tele2.no"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+
+	<!-- by archana, updated mmsc URL and mmsproxy -->
+	<apn carrier="Tele2 MMS" 
+		mcc="240" 
+		mnc="07"
+		spn="2400768"
+		apn="mms.tele2.no" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port="" 
+		mmsproxy="193.012.040.014"
+ 		mmsport="8080"
+ 		mmsc="http://mmsc.tele2.no"
+		type="mms"
+		preferapp=""/>
+
+  <!-- senthilvel added tele2 norway profile to sweden mcc and mnc as per mr.Perjman request end -->
+  <!-- Sameer modified ; to : SW Telenor default-->
+	<apn carrier="TelenorMobilsurf" 
+		mcc="240" 
+		mnc="08" 
+		apn="services.telenor.se"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="172.030.253.241" 
+		port="8799"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+  <!-- SW Telenor Streaming-->
+	<apn carrier="Telenor Streaming" 
+		mcc="240" 
+		mnc="08" 
+		apn="services.telenor.se"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+	<apn carrier="Telenor MMS" 
+		mcc="240" 
+		mnc="08" 
+		apn="services.telenor.se"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="172.30.253.241" 
+		mmsport="8799" 
+		mmsc="http://mms"
+		type="mms"
+		preferapp="" /> 
+		
+
+  <!-- SW Telia default-->
+	<apn carrier="Telia SurfPort" 
+		mcc="240" 
+		mnc="01" 
+		apn="online.telia.se"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="010.254.254.254" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+  <!-- SW Telia streaming-->
+  <!-- senthilvel changed the name to telia streaming to avoid confusion -->
+  	<apn carrier="Telia Streaming" 
+		mcc="240" 
+		mnc="01" 
+		apn="online.telia.se"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+		
+  <!-- SW Telia MMS-->
+	<apn carrier="Telia MMS" 
+		mcc="240" 
+		mnc="01" 
+		apn="mms.telia.se"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="193.209.134.132" 
+		mmsport="80" 
+		mmsc="http://mmss"
+		type="mms"
+		preferapp="" />
+				
+  <!-- SW Telia default-->
+	<apn carrier="Telia SurfPort" 
+		mcc="240" 
+		mnc="05" 
+		spn="Telia"
+		apn="online.telia.se"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="010.254.254.254" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+  <!-- SW Telia streaming-->
+  	<apn carrier="Telia Streaming" 
+		mcc="240" 
+		mnc="05" 
+		spn="Telia"
+		apn="online.telia.se"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+  <!-- SW Telia MMS-->
+	<apn carrier="Telia MMS" 
+		mcc="240" 
+		mnc="05" 
+		spn="Telia"
+		apn="mms.telia.se"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="193.209.134.132" 
+		mmsport="80" 
+		mmsc="http://mmss"
+		type="mms"
+		preferapp="" />
+		
+  <!-- IE 3 default and MMS -->
+ <!--Desh Deepak uncommented on 12/08/2010 -->
+ 	<apn carrier="3" 
+		mcc="272" 
+		mnc="05" 
+		spn="FF"
+		apn="3ireland.ie"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="mms.3ireland.ie" 
+		mmsport="8799" 
+		mmsc="http://mms.um.3ireland.ie:10021/mmsc"
+		type=""
+		preferapp="" /> 
+		
+<!--Desh Deepak commented on 12/08/2010 -->
+<!--
+		<apn carrier="3 Services" 
+		mcc="272" 
+		mnc="05" 
+		apn="3ireland.ie"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+-->
+<!--Desh Deepak modified name of MMS profile on 02/08/2010 -->
+<!--
+		<apn carrier="Multimedia message" 
+		mcc="272" 
+		mnc="05" 
+		apn="3ireland.ie"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="mms.3ireland.ie" 
+		mmsport="8799" 
+		mmsc="http://mms.um.3ireland.ie:10021/mmsc"
+		type="mms"
+		preferapp="" />
+-->
+<!--Desh Deepak End -->
+		
+  <!-- IE Meteor default-->
+  <!-- vijayaraghava/yogish commented as per LTM Leo on 4/5/10
+	<apn carrier="Meteor WAP" 
+		mcc="272" 
+		mnc="03" 
+		apn="wap.mymeteor.ie"
+		user="my" 
+		server="" 
+		password="wap" 
+		proxy="010.085.085.085" 
+		port="8799"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+ -->
+		
+  <!-- IE Meteor WaPProfile2-->
+	<apn carrier="Meteor Data" 
+		mcc="272" 
+		mnc="03" 
+		spn="FF"
+		apn="data.mymeteor.ie"
+		user="my" 
+		server="" 
+		password="wap" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+  
+  <!-- IE Meteor MMS-->
+	<apn carrier="Meteor MMS" 
+		mcc="272" 
+		mnc="03" 
+		spn="FF"
+		apn="mms.mymeteor.ie"
+		user="my" 
+		server="" 
+		password="wap" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="010.085.085.085" 
+		mmsport="8799" 
+		mmsc="http://mms.mymeteor.ie"
+		type="mms"
+		preferapp="" />
+		
+  <!-- IE O2 default and MMS -->
+  <!--Desh Deepak uncommented on 12/08/2010 -->
+  	<apn carrier="O2.ie Mobile Internet" 
+		mcc="272" 
+		mnc="02" 
+		spn="FF"
+		apn="internet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="062.040.032.040" 
+		port="8080"
+		mmsproxy="062.040.032.040" 
+		mmsport="8080" 
+		mmsc="http://mmsc.mms.o2.ie:8002/"
+		type=""
+		preferapp="" /> 
+		
+  <!--Desh Deepak commented on 12/08/2010 -->
+  <!--
+
+		<apn carrier="O2.ie Mobile Internet" 
+		mcc="272" 
+		mnc="02" 
+		apn="internet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="062.040.032.040" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+
+		<apn carrier="O2.ie Mobile Internet" 
+		mcc="272" 
+		mnc="02" 
+		apn="internet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="062.040.032.040" 
+		mmsport="8080" 
+		mmsc="http://mmsc.mms.o2.ie:8002/"
+		type="mms"
+		preferapp="" />
+-->		
+  <!-- IE VDF default-->
+	<apn carrier="Vodafone Live!" 
+		mcc="272" 
+		mnc="01" 
+		spn="FF"
+		apn="live.vodafone.com"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="010.024.059.100" 
+		port="80"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+  
+  <!-- IE VDF MMS-->
+	<apn carrier="Vodafone MMS" 
+		mcc="272" 
+		mnc="01" 
+		spn="FF"
+		apn="mms.vodafone.net"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="010.024.059.200" 
+		mmsport="80" 
+		mmsc="http://www.vodafone.ie/mms"
+		type="mms"
+		preferapp="" />
+
+		<!-- IE Ericom default -->
+<!--Desh Deepak commented as per PRI on 20/08/2010 -->
+<!--
+		<apn carrier="eMobile Data" 
+		mcc="272" 
+		mnc="03" 
+		spn="FF"
+		apn="data.eircom.ie"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+-->
+		<!-- IE Ericom MMS -->
+<!--
+		<apn carrier="eMobile Data" 
+		mcc="272" 
+		mnc="03" 
+		spn="FF"
+		apn="mms.eircom.ie"
+		user="my" 
+		server="" 
+		password="mms" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="010.085.085.085" 
+		mmsport="8799" 
+		mmsc="http://mms.eircom.ie"
+		type="mms"
+		preferapp="" />
+-->
+<!--Desh Deepak End -->
+  <!-- CZ O2 default1-->
+  <!-- CZ O2 WAP is removed on 01/12/2009 by Sameer as per LTM request -->
+		
+  <!-- CZ O2 default-->
+	<apn carrier="O2 internet" 
+		mcc="230" 
+		mnc="02" 
+		apn="internet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+  
+<!-- CZ O2 Streaming-->
+	<apn carrier="O2 Video" 
+		mcc="230" 
+		mnc="02" 
+		apn="video"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />   
+  <!-- CZ O2 MMS-->
+	<apn carrier="O2 MMS" 
+		mcc="230" 
+		mnc="02" 
+		apn="mms"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="160.218.160.218" 
+		mmsport="8080" 
+		mmsc="http://mms.o2active.cz:8002"
+		type="mms"
+		preferapp="" />
+  <!-- T-zones APN removed As per LTM request-->
+	<apn carrier="T-Mobile Internet" 
+		mcc="230" 
+		mnc="01" 
+		apn="internet.t-mobile.cz"
+		user="wap" 
+		server="" 
+		password="wap" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+	<apn carrier="T-Mobile MMS" 
+		mcc="230" 
+		mnc="01" 
+		apn="mms.t-mobile.cz"
+		user="mms" 
+		server="" 
+		password="mms" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="010.000.000.010" 
+		mmsport="80" 
+		mmsc="http://mms"
+		type="mms"
+		preferapp="" />	
+  	<!-- CZ vodafone live profile is removed on 01/12/2009 by Sameer as per LTM request -->
+	<apn carrier="Internet" 
+		mcc="230" 
+		mnc="03" 
+		apn="internet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+	<apn carrier="MMS" 
+		mcc="230" 
+		mnc="03" 
+		apn="mms"
+		user="mms" 
+		server="" 
+		password="mms" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="010.011.010.111" 
+		mmsport="80" 
+		mmsc="http://mms"
+		type="mms"
+		preferapp="" />	
+		
+<!--Desh Deepak Added SK profiles for BUG ID 5679 on 07/04/2010 -->
+<!--SK O2 default-->
+
+
+
+<apn carrier="O2 internet" 
+		mcc="231" 
+		mnc="06" 
+		apn="o2internet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+<!--Yogish/vijay removed as per TD-ID 5679 LTM request on 24/4/10 START -->
+<!--
+		<apn carrier="O2 WAP" 
+		mcc="231" 
+		mnc="06" 
+		apn="o2wap"
+		user="" 
+		server="" 
+		password="" 
+		proxy="010.097.001.011" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+		
+-->
+<!--Yogish/vijay removed as per TD-IDFT request on 24/4/10 END  -->		
+<!-- SK O2 MMS profile-->
+	<apn carrier="O2 MMS" 
+		mcc="231" 
+		mnc="06" 
+		apn="o2mms"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="010.097.001.011" 
+		mmsport="8080" 
+		mmsc="http://mms.o2world.sk:8002"
+		type="mms"
+		preferapp="" />	
+
+<!-- SK T-Mobile default-->
+
+<apn carrier="T-Mobile Internet" 
+		mcc="231" 
+		mnc="02" 
+		apn="internet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+<!--Yogish/vijay removed as per TD-ID 5679 & LTM request on 24/4/10 START -->
+<!--
+		<apn carrier="t-zones" 
+		mcc="231" 
+		mnc="02" 
+		apn="wap"
+		user="wap" 
+		server="" 
+		password="wap" 
+		proxy="192.168.001.001" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+-->
+<!--Yogish/vijay removed as per TD-IDFT request on 24/4/10 END -->
+<!-- SK T-Mobile MMS profile-->
+	<apn carrier="T-Mobile MMS" 
+		mcc="231" 
+		mnc="02" 
+		apn="mms"
+		user="mms" 
+		server="" 
+		password="mms" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="192.168.001.001" 
+		mmsport="8080" 
+		mmsc="http://mms"
+		type="mms"
+		preferapp="" />	
+
+<!-- SK Orange default-->
+<!--Yogish/vijay removed as per TD-IDFT request on 24/4/10 START -->
+<!--
+<apn carrier="Orange World" 
+		mcc="231" 
+		mnc="01" 
+		apn="orangewap"
+		user="wap" 
+		server="" 
+		password="wap" 
+		proxy="213.151.208.156" 
+		port="8799"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+-->
+		<apn carrier="Internet" 
+		mcc="231" 
+		mnc="01" 
+		apn="internet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+		
+<!--Yogish/vijay removed as per TD-IDFT request on 24/4/10 END -->
+<!-- SK Orange MMS profile-->
+	<apn carrier="MMS" 
+		mcc="231" 
+		mnc="01" 
+		apn="mms"
+		user="wap" 
+		server="" 
+		password="wap" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="213.151.208.145" 
+		mmsport="8799" 
+		mmsc="http://imms.orange.sk"
+		type="mms"
+		preferapp="" />	
+<!-- Desh Deepak End-->
+
+  <!-- by archana, gave values to proxy and port-->
+  <!-- FR Virgin default-->
+	<apn carrier="Virgin mobile WAP" 
+		mcc="208" 
+		mnc="01" 
+		spn="Virgin"
+		apn="ofnew.fr"
+		user="orange" 
+		server="" 
+		password="orange" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+  
+  <!-- FR Virgin MMS-->
+	<apn carrier="Virgin mobile MMS" 
+		mcc="208" 
+		mnc="01" 
+		spn="Virgin"
+		apn="orange.acte"
+		user="orange" 
+		server="" 
+		password="orange" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="192.168.010.200" 
+		mmsport="8080" 
+		mmsc="http://mms.orange.fr"
+		type="mms"
+		preferapp="" />
+
+<!-- sudhir added -->
+  <!-- FR OPEN A MOBILE START-->
+  <!-- FR OPEN A MOBILE  WAP  default -->
+	<apn carrier="A-MOBILE WAP65 GPRS" 
+		mcc="208" 
+		mnc="10" 
+		spn="A MOBILE"
+		apn="wap65"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="192.168.021.008" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+  
+  <!-- FR OPEN A MOBILE  MMS-->
+	<apn carrier="A-MOBILE MMS65" 
+		mcc="208" 
+		mnc="10" 
+		spn="A MOBILE"
+		apn="mms65"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="010.143.156.008" 
+		mmsport="8080" 
+		mmsc="http://mms65"
+		type="mms"
+		preferapp="" />
+
+  <!-- FR OPEN A MOBILE END -->
+ <!-- FR OPEN Bouygues START -->
+
+ <!-- FR OPEN Bouygues WAP default-->
+<!--Desh Deepak removed proxy and port as per PRI and TDID 9321 on 11/05/2010-->
+<!--	<apn carrier="Bouygues WAP" 
+		mcc="208" 
+		mnc="20" 
+		apn="mmsbouygtel.com"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="062.201.129.226"  
+		mmsport="8080"
+		mmsc="http://mms.bouyguestelecom.fr/mms/wapenc"
+		type=""
+		preferapp="" /> -->
+
+		<apn carrier="Bouygues WAP" 
+		mcc="208" 
+		mnc="20" 
+		apn="mmsbouygtel.com"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy=""  
+		mmsport=""
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+		<apn carrier="Bouygues WAP" 
+		mcc="208" 
+		mnc="20" 
+		apn="mmsbouygtel.com"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="062.201.129.226"  
+		mmsport="8080"
+		mmsc="http://mms.bouyguestelecom.fr/mms/wapenc"
+		type="mms"
+		preferapp="" /> 
+<!--Desh Deepak removed proxy and port as per PRI and TDID 9321 on 11/05/2010 END-->
+
+<!--Desh Deepak commented streaming profile as per PRI on 11/05/2010-->
+<!--
+		<apn carrier="Bouygues" 
+		mcc="208" 
+		mnc="20" 
+		apn="mmsbouygtel.com"
+		user="" 
+		server="" 
+		password="" 
+		proxy=" 062.201.140.040 " 
+		port="554"
+		mmsproxy=""  
+		mmsport=""
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+		-->
+		<!--Desh Deepak added streaming profile as per PRI on 11/05/2010 END-->
+
+ <!-- FR OPEN Bouygues END-->
+
+<!-- FR OPEN Carrefour  START-->
+<!-- FR OPEN Carrefour   WAP  default-->
+	<apn carrier="Carrefour WAP" 
+		mcc="208" 
+		mnc="01" 
+		spn="Carrefour"
+		apn="ofnew.fr"
+		user="orange" 
+		server="" 
+		password="orange" 
+		authtype="1"
+		proxy="192.168.010.100" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+  
+  <!-- FR OPEN Carrefour  MMS-->
+  <!-- by archana, changed "Carrefour MMS" to "MMS Carrefour"-->
+	<apn carrier="MMS Carrefour" 
+		mcc="208" 
+		mnc="01" 
+		spn="Carrefour"
+		apn="orange.acte"
+		user="orange" 
+		server="" 
+		password="orange" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="192.168.010.200" 
+		mmsport="8080" 
+		mmsc="http://mms.orange.fr"
+		type="mms"
+		preferapp="" />
+<!-- FR OPEN Carrefour END -->
+
+
+<!-- FR OPEN NRJ Mobile  START -->
+
+<!--sahana commented start -->
+<!-- FR OPEN NRJ Mobile   WAP  default-->
+<!--	<apn carrier="NRJ WAP" 
+		mcc="208" 
+		mnc="01" 
+		spn="NRJ Mobile"
+		apn="ofnew.fr"
+		user="orange" 
+		server="" 
+		password="orange" 
+		authtype="1"
+		proxy="192.168.010.100" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> -->
+<!--sahana commented end -->
+		<!-- yogish/vijay added NEJ WEB on 24/4/10 as per PRI -->
+	<apn carrier="NRJ WEB" 
+		mcc="208" 
+		mnc="01" 
+		spn="NRJ Mobile"
+		apn="ofnew.fr"
+		user="orange" 
+		server="" 
+		password="orange"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+  <!-- FR OPEN NRJ Mobile  MMS-->
+	<apn carrier="NRJ MMS" 
+		mcc="208" 
+		mnc="01" 
+		spn="NRJ Mobile"
+		apn="orange.acte"
+		user="orange" 
+		server="" 
+		password="orange"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="192.168.010.200" 
+		mmsport="8080" 
+		mmsc="http://mms.orange.fr"
+		type="mms"
+		preferapp="" />
+<!-- FR OPEN NRJ Mobile  END -->
+
+  
+  <!-- FR OPEN NRJ Mobile  MNC =10  START -->
+  <!-- FR OPEN NRJ Mobile  MNC =10  WAP-->
+<apn carrier="NRJ WAP" 
+		mcc="208" 
+		mnc="10" 
+		spn="NRJ Mobile"
+		apn="wapnrj"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="192.168.021.005" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+
+  <!-- FR OPEN NRJ WEB Mobile  MNC =10  WAP-->
+<apn carrier="NRJ WEB" 
+		mcc="208" 
+		mnc="10" 
+		spn="NRJ Mobile"
+		apn="internetnrj"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+
+  <!-- FR OPEN NRJ Mobile MNC=10 MMS-->
+	<apn carrier="NRJ MMS" 
+		mcc="208" 
+		mnc="10" 
+		spn="NRJ Mobile"
+		apn="mmsnrj"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="010.143.156.005" 
+		mmsport="8080" 
+		mmsc="http://mmsnrj"
+		type="mms"
+		preferapp="" />
+ <!-- FR OPEN NRJ Mobile  MNC =10  MMS  END -->
+
+
+ <!-- FR OPEN ORANGE F   START -->
+ <!-- FR OPEN ORANGE F    WAP default -->
+<apn carrier="Orange World" 
+		mcc="208" 
+		mnc="01" 
+		spn="Orange F"
+		apn="orange"
+		user="orange" 
+		server="" 
+		password="orange"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+
+
+<apn carrier="Orange entreprises" 
+		mcc="208" 
+		mnc="01" 
+		spn="Orange F"
+		apn="orange-mib"
+		user="orange" 
+		server="" 
+		password="orange"
+		authtype="1"
+		proxy="172.016.002.008" 
+		port="8000"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+
+<!-- Yogish/vijay removed as per PRI on 24/4/10 -->
+<!--
+<apn carrier="Orange Internet GPRS" 
+		mcc="208" 
+		mnc="01" 
+		apn="orange.fr"
+		user="orange" 
+		server="" 
+		password="orange" 
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+-->
+  <!-- FR OPEN Orange F MMS  MMS-->
+	<apn carrier="Orange MMS" 
+		mcc="208" 
+		mnc="01" 
+		spn="Orange F"
+		apn="orange.acte"
+		user="orange" 
+		server="" 
+		password="orange"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="192.168.010.200" 
+		mmsport="8080" 
+		mmsc="http://mms.orange.fr"
+		type="mms"
+		preferapp="" />
+
+
+<!-- Email settings  are  same as   OPEN ORANGE F    WAP   -->
+ <!-- FR OPEN Orange    END -->
+
+ 
+ <!-- FR OPEN SFR   start -->
+  <!-- FR OPEN SFR  WAP start -->
+  <!-- vijayaraghava.rc changes SFR profles deleted Acces Data profile and changes names of others as per PRI and TD-ID 7258 start -->
+<apn carrier="Internet Mobile" 
+		mcc="208" 
+		mnc="10" 
+		spn="F SFR"
+		apn="wapsfr"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="195.115.025.129" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+  <!--Sameer Modified on 27/10/2007 SFR FULL INTERNET-->
+    <apn carrier="Full Internet" 
+		mcc="208" 
+		mnc="10" 
+		spn="F SFR"
+		apn="sl2sfr"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+  <!-- FR OPEN SFR MMS  MMS-->
+	<apn carrier="MMS" 
+		mcc="208" 
+		mnc="10" 
+		spn="F SFR"
+		apn="mmssfr"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="010.151.000.001" 
+		mmsport="8080" 
+		mmsc="http://mms1"
+		type="mms"
+		preferapp="" />
+
+
+
+  
+
+ <!-- FR OPEN SFR   END -->
+
+<!-- sahana.koteshwar@lge.com changed for Italy CA start -->
+  
+  <!-- ITALY OPEN H3G  TRE start -->
+  <!--Desh Deepak removed spn name on 22092010 		spn="3 ITA"-->
+																								
+	<apn carrier="Pianeta 3" 
+		mcc="222" 
+		mnc="99" 
+		apn="tre.it"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="062.013.171.003" 
+		mmsport="8799" 
+		mmsc="http://10.216.59.240:10021/mmsc"
+		type=""
+		preferapp="" /> 
+
+		<apn carrier="Streaming 3" 
+		mcc="222" 
+		mnc="99" 
+		apn="tre.it"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+  <!-- ITALY OPEN H3G TRE END -->
+<!-- sahana.koteshwar@lge.com changed for Italy CA end -->
+
+  <!-- ITALY OPEN H3G FASTWEB added as per PRI on 23/4/10 start -->
+ <!-- ITALY OPEN H3G  TRE start -->
+ <!-- Sreelatha removed on 28/7/10 as per Ramesha mail
+	<apn carrier="FASTWEB MMS" 
+		mcc="222" 
+		mnc="99" 
+		spn="fastweb"
+		apn="apn.fastweb.it"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="010.000.065.009" 
+		mmsport="8080" 
+		mmsc="http://mms.fastweb.it/mms/wapenc"
+		type="mms"
+		preferapp="" /> 
+-->
+<!-- Yogish/Vijay Changed as per request from FTE [RM mail 26/4/10]
+<apn carrier="FASTWEB WEB" 
+		mcc="222" 
+		mnc="99" 
+		apn="apn.fastweb.it"
+		user="" 
+		server="" 
+		password="" 
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+-->
+<!-- Sreelatha removed on 28/7/10 as per Ramesha mail
+<apn carrier="FW WEB MOBILE" 
+		mcc="222" 
+		mnc="99" 
+		spn="fastweb"
+		apn="apn.fastweb.it"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="010.000.065.008" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+-->
+<!-- FASTWEB END -->
+
+<!-- sahana.koteshwar@lge.com changed for Italy CA start -->
+ <!-- ITALY OPEN I TIM   start -->
+<!--Desh Deepak removed as SPN naem is coming null from SIM 'spn="I TIM"' on 28092010-->
+	<apn carrier="WAP TIM" 
+		mcc="222" 
+		mnc="01" 
+		apn="wap.tim.it"
+		user="" 
+		server="" 
+		password=""
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+	<apn carrier="TIM Web" 
+		mcc="222" 
+		mnc="01"  
+		apn="ibox.tim.it"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+	
+	<!-- Sameer modified on 16/12/2009 -->
+	<apn carrier="MOBILE TV" 
+		mcc="222" 
+		mnc="01" 
+		apn="wap.tim.it"
+		user="" 
+		server="" 
+		password="" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 	
+		
+
+	<apn carrier="iTIM" 
+		mcc="222" 
+		mnc="01" 
+		apn="unico.tim.it"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="213.230.130.089" 
+		mmsport="80" 
+		mmsc="http://mms.tim.it/servlets/mms"
+		type="mms"
+		preferapp="" /> 
+<!--Desh Deepak removed as SPN naem is coming null from SIM 'spn="I TIM"' on 28092010-->
+  <!-- ITALY OPEN H3G TRE END -->
+  <!-- sahana.koteshwar@lge.com changed for Italy CA end -->
+
+
+ <!-- ITALY OPEN vodafone IT   start -->
+ <!--Sameer modified on 09/11/2009 Wap GPRS Vodafone modified to Vodafone Live! and MMS Vodafone modified to Vodafone MMS GPRS as per updated PRI-->
+ 
+ <!-- sahana.koteshwar@lge.com commented for Italy CA start -->
+ 
+<!--	<apn carrier="Vodafone Live!" 
+		mcc="222" 
+		mnc="10" 
+		apn="wap.omnitel.it"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="010.128.201.076" 
+		port="80"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> -->
+
+<!-- sahana.koteshwar@lge.com commented for Italy CA end -->
+
+<!-- sahana.koteshwar@lge.com added for Italy CA start -->		
+<!--Desh Deepak removed as SPN naem is coming null from SIM 'spn="vodafone IT"' on 28092010-->		
+		<apn carrier="MyWeb" 
+		mcc="222" 
+		mnc="10"
+		apn="mobile.vodafone.it"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+		
+<!-- sahana.koteshwar@lge.com added for Italy CA end -->
+
+<!-- sahana.koteshwar@lge.com changed for Italy CA start -->		
+
+	<apn carrier="Vodafone Streaming" 
+		mcc="222" 
+		mnc="10" 
+		apn="mobile.vodafone.it"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />  -->
+<!-- sahana.koteshwar@lge.com changed for Italy CA end -->	
+
+
+		<!-- apn updated by archana -->
+<!-- sahana.koteshwar@lge.com commented for Italy CA start -->
+
+<!--		
+
+	<apn carrier="Internet" 
+		mcc="222" 
+		mnc="10" 
+		apn="mobile.vodafone.it"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+	<apn carrier="Vodafone MMS GPRS" 
+		mcc="222" 
+		mnc="10" 
+		apn="mms.vodafone.it"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="010.128.224.010" 
+		mmsport="80" 
+		mmsc="http://mms.vodafone.it/servlets/mms"
+		type="mms"
+		preferapp="" /> -->
+<!-- sahana.koteshwar@lge.com commented for Italy CA end -->
+
+<!-- sahana.koteshwar@lge.com added for Italy CA start -->
+
+<apn carrier="MMS Vodafone" 
+		mcc="222" 
+		mnc="10" 
+		apn="mms.vodafone.it"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="010.128.224.010" 
+		mmsport="80" 
+		mmsc="http://mms.vodafone.it/servlets/mms"
+		type="mms"
+		preferapp="" />
+<!--Desh Deepak removed as SPN naem is coming null from SIM 'spn="vodafone IT"' on 28092010-->	
+<!-- sahana.koteshwar@lge.com added for Italy CA end -->
+
+  <!-- ITALY OPEN vodafone IT END -->
+
+<!-- ITALY - PosteMobile -->
+<!--Desh Deepak Added Postemobile profiles as per PRI on 29/07/2010 -->
+<!--Desh Deepak commented as per PRI on 28092010-->	
+<!--
+		<apn carrier="PosteMobile WAP" 
+		mcc="222" 
+		mnc="10" 
+		spn="PosteMobile"
+		apn="wap.postemobile.it"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+		<apn carrier="PosteMobile MMS" 
+		mcc="222" 
+		mnc="10" 
+		spn="PosteMobile"
+		apn="mms.postemobile.it"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="010.128.224.010" 
+		mmsport="80" 
+		mmsc="http://mms.postemobile.it/servlets/mms"
+		type="mms"
+		preferapp="" /> 
+-->		
+<!-- sahana.koteshwar@lge.com added for Italy CA start -->
+<!--		
+		<apn carrier="PosteMobile Internet" 
+		mcc="222" 
+		mnc="10"
+		spn="PosteMobile"
+		apn="internet.postemobile.it"
+		user="" 
+		server="" 
+		password=""
+		authtype="0" 
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> -->
+
+<!-- sahana.koteshwar@lge.com added for Italy CA end -->
+
+<!--Desh Deepak End-->
+
+ <!-- ITALY OPEN WIND  start -->
+<!-- ITALY OPEN WIND all profiles updated as per PRI start  on 23/4/10 -->
+
+
+
+<!-- sahana.koteshwar@lge.com modified for Italy CA start -->
+<!--Desh Deepak removed as SPN naem is coming null from SIM 'spn="I WIND"' on 28092010-->	
+<apn carrier="Internet Consumer" 
+		mcc="222" 
+		mnc="88"		
+		apn="internet.wind"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+<apn carrier="Internet Corporate" 
+		mcc="222" 
+		mnc="88" 
+		apn="internet.wind.biz"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+<apn carrier="Streaming WIND" 
+		mcc="222" 
+		mnc="88" 
+		apn="internet.wind"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+<apn carrier="WIND Streaming BIZ" 
+		mcc="222" 
+		mnc="88" 
+		apn="internet.wind.biz"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+	<apn carrier="WIND MMS" 
+		mcc="222" 
+		mnc="88" 
+		apn="mms.wind"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="212.245.244.100" 
+		mmsport="8080" 
+		mmsc="http://mms.wind.it"
+		type="mms"
+		preferapp="" />
+
+
+<!-- sahana.koteshwar@lge.com modified for Italy CA end -->
+
+  <!-- ITALY OPEN WIND END -->
+
+<!-- SPAIN OPEN Euskaltel  start -->
+<!-- EUR OPEN vijayaraghava.rc@lge.com 24/3/10  changed All profiles names As per TD_ID: 3390  -->
+<!--Desh Deepak commented as per TDID-3390 and per FTE request on 11/05/2010-->
+<!--
+<apn carrier="WAP GPRS" 
+		mcc="214" 
+		mnc="08" 
+		apn="euskaltelwap.euskaltel.mobi"
+		user="CLIENTE" 
+		server="" 
+		password="EUSKALTEL" 
+		proxy="172.016.018.074" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+-->
+<!--Desh Deepak commented as per TDID-3390 and per FTE request on 11/05/2010 END-->
+
+<!--Desh Deepak modified the name and added 1 default profile on 06/07/2010-->
+
+<apn carrier="Euskaltel Internet" 
+		mcc="214" 
+		mnc="08" 
+		apn="internet.euskaltel.mobi"
+		user="CLIENTE" 
+		server="" 
+		password="EUSKALTEL"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+		<apn carrier="Euskaltel" 
+		mcc="214" 
+		mnc="08" 
+		apn="euskaltelwap.euskaltel.mobi"
+		user="CLIENTE" 
+		server="" 
+		password="EUSKALTEL"
+		authtype="1"
+		proxy="172.016.018.074" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+
+	<apn carrier="Euskaltel MMS" 
+		mcc="214" 
+		mnc="08" 
+		apn="euskaltelmms.euskaltel.mobi"
+		user="MMS" 
+		server="" 
+		password="EUSKALTEL"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="172.016.018.074" 
+		mmsport="8080" 
+		mmsc="http://mms.euskaltel.mobi"
+		type="mms"
+		preferapp="" />
+<!--Desh Deepak added for BUG ID 3392 as same profile should be for MNC=06 on 24/03/2010-->
+
+<!--Desh Deepak commented as per TDID-3392 and per FTE request on 11/05/2010-->
+<!--
+		<apn carrier="WAP GPRS" 
+		mcc="214" 
+		mnc="06" 
+		apn="euskaltelwap.euskaltel.mobi"
+		user="CLIENTE" 
+		server="" 
+		password="EUSKALTEL" 
+		proxy="172.016.018.074" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+-->
+<!--Desh Deepak commented as per TDID-3392 and per FTE request on 11/05/2010 END-->
+<apn carrier="Euskaltel Internet" 
+		mcc="214" 
+		mnc="06" 
+		apn="internet.euskaltel.mobi"
+		user="CLIENTE" 
+		server="" 
+		password="EUSKALTEL"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+		<apn carrier="Euskaltel" 
+		mcc="214" 
+		mnc="06" 
+		apn="euskaltelwap.euskaltel.mobi"
+		user="CLIENTE" 
+		server="" 
+		password="EUSKALTEL"
+		authtype="1"
+		proxy="172.016.018.074" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+
+	<apn carrier="Euskaltel MMS" 
+		mcc="214" 
+		mnc="06" 
+		apn="euskaltelmms.euskaltel.mobi"
+		user="MMS" 
+		server="" 
+		password="EUSKALTEL"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="172.016.018.074" 
+		mmsport="8080" 
+		mmsc="http://mms.euskaltel.mobi"
+		type="mms"
+		preferapp="" />
+
+<!--Desh Deepak end-->
+
+  <!-- SPAIN OPEN Euskaltel END -->
+
+<!-- SPAIN OPEN Orange  start -->
+<!--Desh Deepak commented as per TDID-3387 and per FTE request on 11/05/2010-->
+<!-- Desh Deepak uncommented as per PRI on 06/08/2010 -->
+
+		<apn carrier="Orange Internet Movil" 
+		mcc="214" 
+		mnc="03" 
+		apn="orangeworld"
+		user="orange" 
+		server="" 
+		password="orange" 
+		authtype="1"
+		proxy="010.132.061.010" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+
+<!--Desh Deepak commented as per PRI on 06/08/2010 END-->
+<!--
+<apn carrier="Orange Internet" 
+		mcc="214" 
+		mnc="03" 
+		apn="internet"
+		user="orange" 
+		server="" 
+		password="orange"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+-->
+<!--Desh Deepak End -->
+
+	<apn carrier="Orange MMS" 
+		mcc="214" 
+		mnc="03" 
+		apn="orangemms"
+		user="orange" 
+		server="" 
+		password="orange"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="172.022.188.025" 
+		mmsport="8080" 
+		mmsc="http://mms.orange.es"
+		type="mms"
+		preferapp="" />
+
+  <!-- SPAIN OPEN Orange END -->
+<!-- SPAIN OPEN movistar  start -->
+
+<!--  //vijayaraghava.rc@lge.com commented below 3 profiles only "Telefonica" is provided as per PRI for default profile. TD_ID 3383
+<apn carrier="movistar emocin" 
+		mcc="214" 
+		mnc="07" 
+		apn="wap.movistar.es"
+		user="WAPTM" 
+		server="" 
+		password="WAPTM" 
+		proxy="010.138.255.129" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+
+<apn carrier="movistar Internet" 
+		mcc="214" 
+		mnc="07" 
+		apn="movistar.es"
+		user="MOVISTAR" 
+		server="" 
+		password="MOVISTAR" 
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+
+	<apn carrier="movistar MMS" 
+		mcc="214" 
+		mnc="07" 
+		apn="mms.movistar.es"
+		user="MOVISTAR@mms" 
+		server="" 
+		password="MOVISTAR" 
+		proxy="" 
+		port=""
+		mmsproxy="010.138.255.005" 
+		mmsport="8080" 
+		mmsc="http://mms.movistar.com"
+		type="mms"
+		preferapp="" />
+-->
+
+  <!-- SPAIN OPEN movistar END -->
+
+
+
+
+<!-- SPAIN OPEN movistar  Telefonica  start -->
+
+<!-- <apn carrier="Telefonica" 
+		mcc="214" 
+		mnc="07" 
+		apn="telefonica.es"
+		user="telefonica" 
+		server="" 
+		password="telefonica" 
+		authtype="1"
+		proxy="010.138.255.133" 
+		port="8080"
+		mmsproxy="010.138.255.005" 
+		mmsport="8080" 
+		mmsc="http://mms.movistar.com"
+		type=""
+		preferapp="" /> -->
+
+<!--Desh Deepak modified the name of both profiles as per PRI on 06/08/2010 -->
+
+		<apn carrier="Movistar" 
+		mcc="214" 
+		mnc="07" 
+		apn="telefonica.es"
+		user="telefonica" 
+		server="" 
+		password="telefonica" 
+		authtype="1"
+		proxy="010.138.255.133" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+		<apn carrier="Movistar MMS" 
+		mcc="214" 
+		mnc="07" 
+		apn="telefonica.es"
+		user="" 
+		server="" 
+		password="" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="010.138.255.005" 
+		mmsport="8080" 
+		mmsc="http://mms.movistar.com"
+		type="mms"
+		preferapp="" /> 
+
+<!--Desh Deepak End -->
+<!-- SPAIN OPEN movistar  Telefonica  END -->
+
+<!-- SPAIN OPEN Vodafone ES  start -->
+<!-- EUR OPEN vijayaraghava.rc@lge.com 24/3/10  changed All profiles names As per TD_ID: 3385 removed internet movil proxy and port as per PRI 16/4/10-->
+
+<!--Desh Deepak added the proxy and port for internet movil profile  per PRI on 06/08/2010 -->
+
+<apn carrier="Internet móvil"
+		mcc="214" 
+		mnc="01" 
+		apn="airtelwap.es"
+		user="wap@wap" 
+		server="" 
+		password="wap125" 
+		authtype="1"
+		proxy="212.073.032.010" 
+		port="80"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+		
+	<!--Desh Deepak End-->
+
+<!--Desh Deepak modified the apn per PRI on 06/08/2010 -->
+
+<apn carrier="INTERNET" 
+		mcc="214" 
+		mnc="01" 
+		apn="ac.vodafone.es"
+		user="vodafone" 
+		server="" 
+		password="vodafone"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+<!--Desh Deepak End -->
+	<apn carrier="MMS VODAFONE" 
+		mcc="214" 
+		mnc="01" 
+		apn="mms.vodafone.net"
+		user="wap@wap" 
+		server="" 
+		password="wap125"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="212.073.032.010" 
+		mmsport="80" 
+		mmsc="http://mmsc.vodafone.es/servlets/mms"
+		type="mms"
+		preferapp="" />
+
+  <!-- SPAIN OPEN Vodafone ES END -->
+
+<!-- SPAIN OPEN Yoigo   start -->
+
+<apn carrier="Yoigo Navegador" 
+		mcc="214" 
+		mnc="04" 
+		apn="internet"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="010.008.000.036" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+
+
+
+	<apn carrier="Yoigo MMS" 
+		mcc="214" 
+		mnc="04" 
+		apn="mms"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="193.209.134.141" 
+		mmsport="80" 
+		mmsc="http://mmss/"
+		type="mms"
+		preferapp="" />
+
+  <!-- SPAIN OPEN Yoigo END -->
+
+
+ <!-- GERMANY OPEN E-PLUS   start -->
+ <!-- //vijayaraghava.rc@lge.com changed profiles names as per PRI same profiles as debitel_open coming on 16/4/10 as per PRI -->
+ <!-- sahana commented as per pri 17/09/2010 -->
+ <!--
+<apn carrier="debitel" 
+		mcc="262" 
+		mnc="03" 
+		spn="Debitel"
+		apn="wap.debitel.de"
+		user="debitel" 
+		server="" 
+		password="wap"
+		authtype="1"
+		proxy="193.168.128.127" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> -->
+
+
+<apn carrier="WEB GPRS" 
+		mcc="262" 
+		mnc="03" 
+		spn="Debitel"
+		apn="internet.eplus.de"
+		user="eplus" 
+		server="" 
+		password="internet"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+ <!-- sahana commented as per pri 17/09/2010 -->
+ <!--
+<apn carrier="WAP" 
+		mcc="262" 
+		mnc="03" 
+		spn="Debitel"
+		apn="wap.eplus.de"
+		user="eplus" 
+		server="" 
+		password="wap"
+		authtype="1"
+		proxy="212.023.097.009" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> -->
+
+<!-- GERMANY   MMS-->
+		<apn carrier="MMS" 
+		mcc="262" 
+		mnc="03" 
+		spn="Debitel"
+		apn="mms.eplus.de"
+		user="mms" 
+		server="" 
+		password="eplus"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="212.023.097.153" 
+		mmsport="5080" 
+		mmsc="http://mms/eplus"
+		type="mms"
+		preferapp="" />
+<!-- vijayaraghava.rc END -->
+
+ <!-- GERMANY E-PLUS END -->
+
+
+
+ <!-- GERMANY Debitel_O2 START -->
+
+<apn carrier="debitel" 
+		mcc="262" 
+		mnc="07" 
+		spn="debitel"
+		apn="wap.debitel.de"
+		user="debitel" 
+		server="" 
+		password="wap"
+		authtype="1"
+		proxy="193.168.128.127" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+<!--Desh Deepak combined the profiles as per BUG ID 7524 & and vijay added MMS proxy and port 7785 on  20/04/10-->
+<!--Desh Deepak combined the profiles as per BUG ID 7524 20/09/10-->
+	 <apn carrier="o2 Internet" 
+		mcc="262" 
+		mnc="07" 
+		spn="debitel"
+		apn="internet"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="082.113.100.005" 
+		mmsport="8080" 
+		mmsc="http://10.81.0.7:8002/"
+		type=""
+		preferapp="" />  
+<!--
+		<apn carrier="o2 Internet" 
+		mcc="262" 
+		mnc="07" 
+		spn="debitel"
+		apn="internet"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+
+		<apn carrier="o2 MMS" 
+		mcc="262" 
+		mnc="07" 
+		spn="debitel"
+		apn="internet"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="082.113.100.005" 
+		mmsport="8080" 
+		mmsc="http://10.81.0.7:8002/"
+		type="mms"
+		preferapp="" />-->
+<!--Desh Deepak End -->
+
+ <!-- GERMANY Debitel_O2 END -->
+
+
+ <!-- GERMANY T-Mobile START -->
+<!--Desh Deepak commented as per BUG ID 7371 on 19/04/2010-->
+<!--
+<apn carrier="debitel" 
+		mcc="262" 
+		mnc="01" 
+		apn="wap.debitel.de"
+		user="debitel" 
+		server="" 
+		password="wap" 
+		proxy="193.168.128.127" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+-->
+<!--Desh Deepak End-->
+<!--Desh Deepak combined the profiles on  20/09/10-->
+		<apn carrier="T-Mobile Internet" 
+		mcc="262" 
+		mnc="01"
+		apn="internet.t-mobile"
+		user="t-mobile" 
+		server="" 
+		password="tm"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="172.028.023.131" 
+		mmsport="8008" 
+		mmsc="http://mms.t-mobile.de/servlets/mms"
+		type=""
+		preferapp="" />
+		<!--Desh Deepak removed spn name as it was read null from SIM on 18092010-->
+		<!--
+		<apn carrier="T-Mobile Internet" 
+		mcc="262" 
+		mnc="01"
+		apn="internet.t-mobile"
+		user="t-mobile" 
+		server="" 
+		password="tm"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+		-->
+		<!-- sahana changed the name of the carrier,added user and password as per PRI 17/09/2010 -->
+		<!--
+		<apn carrier="T-Mobile MMS" 
+		mcc="262" 
+		mnc="01"
+		apn="internet.t-mobile"
+		user="t-mobile" 
+		server="" 
+		password="tm"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="172.028.023.131" 
+		mmsport="8008" 
+		mmsc="http://mms.t-mobile.de/servlets/mms"
+		type="mms"
+		preferapp="" />
+		-->
+
+ <!-- GERMANY T-Mobile D END -->
+
+
+
+ <!-- GERMANY Vodafone.de START -->
+<!-- sahana commented as per PRI 17/09/2010 -->
+<!-- 
+<apn carrier="debitel" 
+		mcc="262" 
+		mnc="02" 
+		spn="debitel"
+		apn="wap.debitel.de"
+		user="debitel" 
+		server="" 
+		password="wap"
+		authtype="1"
+		proxy="193.168.128.127" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+<apn carrier="VF DE live! Secure" 
+		mcc="262" 
+		mnc="02" 
+		spn="debitel"
+		apn="wap.vodafone.de"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="139.007.029.001" 
+		port="9203"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+
+<apn carrier="Vodafone live!" 
+		mcc="262" 
+		mnc="02" 
+		spn="debitel"
+		apn="wap.vodafone.de"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="139.007.029.001" 
+		port="80"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />  -->
+
+<apn carrier="VF DE Web" 
+		mcc="262" 
+		mnc="02" 
+		spn="debitel"
+		apn="web.vodafone.de"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+<!-- sahana changed the name of the carrier as per PRI 17/09/2010 -->		
+
+<apn carrier="VF DE Event" 
+		mcc="262" 
+		mnc="02" 
+		spn="debitel"
+		apn="event.vodafone.de"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="139.007.029.017" 
+		mmsport="80" 
+		mmsc="http://139.7.24.1/servlets/mms"
+		type="mms"
+		preferapp="" />
+		
+<!-- sahana commented as per PRI 17/09/2010 -->
+
+<!--
+
+<apn carrier="Vodafone streaming" 
+		mcc="262" 
+		mnc="02" 
+		spn="debitel"
+		apn="wap.vodafone.de"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> -->
+		
+ <!-- GERMANY Vodafone.de END -->
+  <!-- GERMANY E-Plus START -->
+<!-- //vijayaraghava.rc@lge.com changed profiles as per PRI same profiles as Debitel_open coming on 16/4/10 as per PRI -->
+<!-- sahana commented start -->
+<!--
+<apn carrier="WAP" 
+		mcc="262" 
+		mnc="03" 
+		spn="E-Plus"
+		apn="wap.eplus.de"
+		user="eplus" 
+		server="" 
+		password="wap"
+		authtype="1"
+		proxy="212.023.097.009" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> -->
+<!-- sahana commented end -->
+		
+
+<apn carrier="WEB GPRS"  
+		mcc="262" 
+		mnc="03" 
+		apn="internet.eplus.de"
+		user="eplus" 
+		server="" 
+		password="internet"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+<apn carrier="MMS" 
+		mcc="262" 
+		mnc="03" 
+		apn="mms.eplus.de"
+		user="mms" 
+		server="" 
+		password="eplus"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="212.023.097.153" 
+		mmsport="5080" 
+		mmsc="http://mms/eplus"
+		type="mms"
+		preferapp="" />
+ <!-- vijayaraghava END -->
+ <!-- GERMANY E-Plus END -->
+
+
+ <!-- GERMANY o2 - de START -->
+		<apn carrier="o2 Internet" 
+		mcc="262" 
+		mnc="07"
+		spn="o2 - de"
+		apn="internet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="082.113.100.005" 
+		mmsport="8080"
+		mmsc="http://10.81.0.7:8002/"
+		type=""
+		preferapp="" /> 
+<!--
+		<apn carrier="o2 Internet" 
+		mcc="262" 
+		mnc="07"
+		spn="o2 - de"
+		apn="internet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport=""
+		mmsc=""
+		type="default"
+		preferapp="" />
+
+		 <apn carrier="o2 MMS" 
+		mcc="262" 
+		mnc="07"
+		spn="o2 - de"
+		apn="internet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="082.113.100.005" 
+		mmsport="8080"
+		mmsc="http://10.81.0.7:8002/"
+		type="mms"
+		preferapp="" />
+-->
+
+ <!-- GERMANY o2 - de END -->
+
+
+ <!-- GERMANY T-Mobile Debitel START -->
+<!--Desh Deepak added this Debitel profile as per BUG ID 9814 on 15/05/2010-->
+<!-- sahana commented as per PRI 17/09/2010 -->
+<!--
+ <apn carrier="debitel" 
+		mcc="262" 
+		mnc="01"
+		spn="debitel"
+		apn="wap.debitel.de"
+		user="debitel" 
+		server="" 
+		password="wap"
+		authtype="1"
+		proxy="193.168.128.127" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> -->
+<!--Desh Deepak END-->
+
+	 <apn carrier="T-Mobile Internet" 
+		mcc="262" 
+		mnc="01"
+		spn="debitel"
+		apn="internet.t-mobile"
+		user="t-mobile" 
+		server="" 
+		password="tm"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="172.028.023.131" 
+		mmsport="8008" 
+		mmsc="http://mms.t-mobile.de/servlets/mms"
+		type=""
+		preferapp="" /> 
+<!--
+		<apn carrier="T-Mobile Internet" 
+		mcc="262" 
+		mnc="01"
+		spn="debitel"
+		apn="internet.t-mobile"
+		user="t-mobile" 
+		server="" 
+		password="tm"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+		-->
+<!-- sahana changed the name of the carrier,added username,password according to PRI 17/09/2010 -->
+<!--
+		<apn carrier="T-Mobile MMS" 
+		mcc="262" 
+		mnc="01"
+		spn="debitel"
+		apn="internet.t-mobile"
+		user="t-mobile" 
+		server="" 
+		password="tm"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="172.028.023.131" 
+		mmsport="8008" 
+		mmsc="http://mms.t-mobile.de/servlets/mms"
+		type="mms"
+		preferapp="" />
+		-->
+ <!-- GERMANY T-Mobile D END -->
+
+
+
+ <!-- GERMANY Vodafone.de START -->
+ 
+<!-- sahana commented as per pri 17/09/2010 --> 
+<!-- <apn carrier="Vodafone live!" 
+		mcc="262" 
+		mnc="02" 
+		spn="Vodafone.de"
+		apn="wap.vodafone.de"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="139.007.029.001" 
+		port="80"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> -->
+		
+<!-- by archana, port to 80 -->
+<!-- sahana commented as per pri 17/09/2010 --> 
+<!--
+<apn carrier="VF DE live! Secure" 
+		mcc="262" 
+		mnc="02" 
+		spn="Vodafone.de"
+		apn="wap.vodafone.de"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="139.007.029.001" 
+		port="80"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> -->
+
+<apn carrier="VF DE Web" 
+		mcc="262" 
+		mnc="02" 
+		apn="web.vodafone.de"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+		
+		
+<!-- sahana changed the name of the carrier as per pri 17/09/2010 --> 
+
+<apn carrier="VF DE EVENT" 
+		mcc="262" 
+		mnc="02" 
+		apn="event.vodafone.de"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="139.007.029.017" 
+		mmsport="80" 
+		mmsc="http://139.7.24.1/servlets/mms"
+		type="mms"
+		preferapp="" />
+
+<!-- sahana commented as per pri 17/09/2010 --> 
+
+<!--
+<apn carrier="Vodafone streaming" 
+		mcc="262" 
+		mnc="02" 
+		spn="Vodafone.de"
+		apn="wap.vodafone.de"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> -->
+			
+
+ <!-- GERMANY Vodafone.de END -->
+ 
+
+<!-- sudhir end 12_10_2009 -->
+ <!-- START:: FR Profiles Added By Mangarao-->
+
+<!-- FR(Caraibes) Digicel default-->
+<!--	<apn carrier="Digicel WAP" 
+		mcc="340" 
+		mnc="20" 
+		apn="wap.digicelfr.com"
+		user="wap" 
+		server="" 
+		password="wap"
+		authtype="1"
+		proxy="172.020.006.012" 
+		port="8080"
+		mmsproxy="172.020.006.012" 
+		mmsport="9201" 
+		mmsc="http://mmc.digiceltt.com/servlets/mms"
+		type=""
+		preferapp="" /> -->
+
+		<apn carrier="Digicel WAP" 
+		mcc="340" 
+		mnc="20" 
+		apn="wap.digicelfr.com"
+		user="wap" 
+		server="" 
+		password="wap"
+		authtype="1"
+		proxy="172.020.006.012" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+
+		<apn carrier="Digicel WAP" 
+		mcc="340" 
+		mnc="20" 
+		apn="wap.digicelfr.com"
+		user="" 
+		server="" 
+		password=""
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="172.020.006.012" 
+		mmsport="9201" 
+		mmsc="http://mmc.digiceltt.com/servlets/mms"
+		type="mms"
+		preferapp="" />
+
+
+<!-- FR(Caraibes) Orange_Caraibes default-->
+	<!-- <apn carrier="Orange World" 
+		mcc="340" 
+		mnc="01" 
+		apn="orangewap"
+		user="orange" 
+		server="" 
+		password="orange"
+		authtype="1"
+		proxy="010.000.000.010" 
+		port="8082"
+		mmsproxy="010.000.000.010" 
+		mmsport="8082" 
+		mmsc="http://193.251.160.246/servlets/mms"
+		type=""
+		preferapp="" /> -->
+
+		<apn carrier="Orange World" 
+		mcc="340" 
+		mnc="01" 
+		apn="orangewap"
+		user="orange" 
+		server="" 
+		password="orange"
+		authtype="1"
+		proxy="010.000.000.010" 
+		port="8082"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+
+		<apn carrier="Orange World" 
+		mcc="340" 
+		mnc="01" 
+		apn="orangewap"
+		user="" 
+		server="" 
+		password=""
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="010.000.000.010" 
+		mmsport="8082" 
+		mmsc="http://193.251.160.246/servlets/mms"
+		type="mms"
+		preferapp="" />
+
+
+<!-- FR(Caraibes) Orange_Caraibes streaming vijayaraghava.rc upaetd on 06/05/10-->
+	<apn carrier="Orange Streaming" 
+		mcc="340" 
+		mnc="01" 
+		apn="orangewap"
+		user="orange" 
+		server="" 
+		password="orange"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+<!-- FR(Caraibes) Outremer_Telecom default-->
+	<apn carrier="Onlywap-GPRS" 
+		mcc="340" 
+		mnc="02" 
+		apn="onlywap"
+		user="only" 
+		server="" 
+		password="only"
+		authtype="1"
+		proxy="010.002.085.050" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+<!-- FR(Caraibes) Outremer_Telecom MMS-->
+	<apn carrier="Onlymms-GPRS" 
+		mcc="340" 
+		mnc="02" 
+		apn="onlymms"
+		user="only" 
+		server="" 
+		password="only"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="010.002.085.050" 
+		mmsport="8080" 
+		mmsc="http://10.2.85.50:8514"
+		type="mms"
+		preferapp="" /> 
+
+
+<!-- FR(Reunion) Orange_Reunion default-->
+	<apn carrier="Orange World" 
+		mcc="647" 
+		mnc="00" 
+		apn="orangerun"
+		user="orange" 
+		server="" 
+		password="orange"
+		authtype="1"
+		proxy="192.168.010.100" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+	<apn carrier="Orange Entreprise" 
+		mcc="647" 
+		mnc="00" 
+		apn="orangerun.entreprise"
+		user="orange" 
+		server="" 
+		password="orange"
+		authtype="1"
+		proxy="192.168.010.100" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+<!-- FR(Reunion) Orange_Reunion MMS-->
+	<apn carrier="Orange MMS" 
+		mcc="647" 
+		mnc="00" 
+		apn="orangerun.acte"
+		user="orange" 
+		server="" 
+		password="orange" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="192.168.010.200" 
+		mmsport="8080" 
+		mmsc="http://mms.orange.re/"
+		type="mms"
+		preferapp="" /> 
+<!-- FR(Reunion) Orange_Reunion APN's added by vijayaraghava.rc@lge.com on 6/5/10 START-->
+	<apn carrier="Internet" 
+		mcc="647" 
+		mnc="00" 
+		apn="orangerun"
+		user="orange" 
+		server="" 
+		password="orange"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+	<apn carrier=" streaming Ore" 
+		mcc="647" 
+		mnc="00" 
+		apn="orangerun"
+		user="orange" 
+		server="" 
+		password="orange" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+<!-- FR(Reunion) Orange_Reunion APN's added by vijayaraghava.rc@lge.com on 6/5/10 END-->
+
+<!-- FR(Reunion) Outremer_Telecom default-->
+	<apn carrier="Onlywap-GPRS" 
+		mcc="647" 
+		mnc="02" 
+		apn="onlywap"
+		user="only" 
+		server="" 
+		password="only" 
+		authtype="1"
+		proxy="010.004.085.050" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+<!-- FR(Reunion) Outremer_Telecom MMS-->
+	<apn carrier="Onlymms-GPRS" 
+		mcc="647" 
+		mnc="02" 
+		apn="onlymms"
+		user="only" 
+		server="" 
+		password="only"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="010.004.085.050" 
+		mmsport="8080" 
+		mmsc="http://10.4.85.50:8514"
+		type="mms"
+		preferapp="" /> 
+
+<!--Desh Deepak modified the names of profiles and removed the extra profile Acess Data as per PRI as per BUGID 8577 on 4/05/2010-->
+<!-- FR(Reunion) SRR default-->
+	<apn carrier=" WAP SRR Internet Mobile" 
+		mcc="647" 
+		mnc="10" 
+		apn="wapsfr"
+		user="wap" 
+		server="" 
+		password="wap" 
+		authtype="1"
+		proxy="010.000.224.161" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 		
+<!--
+	<apn carrier="Accès Data" 
+		mcc="647" 
+		mnc="10" 
+		apn="websfr"
+		user="" 
+		server="" 
+		password="" 
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+-->
+	<apn carrier="WAP SRR" 
+		mcc="647" 
+		mnc="10" 
+		apn="sl2sfr"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+<!-- FR(Reunion) SRR MMS-->
+	<apn carrier="MMS SRR" 
+		mcc="647" 
+		mnc="10" 
+		apn="mmssfr"
+		user="mms" 
+		server="" 
+		password="mms"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="010.000.224.145" 
+		mmsport="8080" 
+		mmsc="http://mms"
+		type="mms"
+		preferapp="" /> 
+<!--Desh Deepak End-->
+
+<!-- Swiss Orange default-->
+	<apn carrier="Orange World" 
+		mcc="228" 
+		mnc="03" 
+		apn="wap"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="192.168.010.002" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 		
+<!-- Swiss Orange Email-->
+<!-- Swiss Orange Internet removed by vijayaraghava.rc on 23/4/10 as per PRI(RM)-->
+<!--
+<apn carrier="Orange Internet" 
+		mcc="228" 
+		mnc="03" 
+		apn="internet"
+		user="" 
+		server="" 
+		password="" 
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+-->
+<!-- Swiss Orange MMS-->
+	<apn carrier="Orange MMS" 
+		mcc="228" 
+		mnc="03" 
+		apn="mms"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="192.168.151.002" 
+		mmsport="8080" 
+		mmsc="http://192.168.151.3:8002"
+		type="mms"
+		preferapp="" /> 
+
+<!-- Swiss Orange default-->
+	<apn carrier="Sunrise live" 
+		mcc="228" 
+		mnc="02" 
+		apn="internet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+<!-- Swiss Orange MMS-->
+	<apn carrier="Sunrise MMS" 
+		mcc="228" 
+		mnc="02" 
+		apn="mms.sunrise.ch"
+		user="mms" 
+		server="" 
+		password="mms" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="212.035.034.075" 
+		mmsport="8080" 
+		mmsc="http://mmsc.sunrise.ch"
+		type="mms"
+		preferapp="" /> 	
+
+<!--SWISS - Sunrise -->
+<!--Desh Deepak added Sunrise profiles as per PRI on 29/07/2010 -->
+
+		<apn carrier="Lebara Internet" 
+		mcc="228" 
+		mnc="02"
+		spn="Lebara"
+		apn="internet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+		<apn carrier="Lebara MMS" 
+		mcc="228" 
+		mnc="02"
+		spn="Lebara"
+		apn="mms.sunrise.ch"
+		user="mms" 
+		server="" 
+		password="mms" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="212.035.034.075" 
+		mmsport="8080" 
+		mmsc="http://mmsc.sunrise.ch"
+		type="mms"
+		preferapp="" /> 
+
+<!--Desh Deepak End-->
+
+<!-- Swiss Swisscom proxy and port removed as per LTM request on 18/02/2010 -->
+<!--Desh Deepak added the proxy and port settings as per BUG ID 7642 on 21/04/2010-->
+	<apn carrier="Swisscom Services" 
+		mcc="228" 
+		mnc="01" 
+		apn="gprs.swisscom.ch"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="192.168.210.001" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+<!--Desh Deepak added the proxy and port settings END-->
+<!-- Swiss Swisscom MMS-->
+	<apn carrier="Swisscom MMS" 
+		mcc="228" 
+		mnc="01" 
+		apn="event.swisscom.ch"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="192.168.210.002" 
+		mmsport="8080" 
+		mmsc="http://mms.natel.ch:8079"
+		type="mms"
+		preferapp="" /> 
+
+<!-- Swiss Tele2 default-->
+<!--	<apn carrier="Tele2 WAP GPRS" 
+		mcc="228" 
+		mnc="08" 
+		apn="internet.tele2.ch"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="130.244.196.90" 
+		port="8080"
+		mmsproxy="193.012.040.067" 
+		mmsport="8080" 
+		mmsc="http://mmsc.tele2.ch"
+		type=""
+		preferapp="" /> -->
+
+		<apn carrier="Tele2 WAP GPRS" 
+		mcc="228" 
+		mnc="08" 
+		apn="internet.tele2.ch"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="130.244.196.90" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+		<apn carrier="Tele2 WAP GPRS" 
+		mcc="228" 
+		mnc="08" 
+		apn="internet.tele2.ch"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="193.012.040.067" 
+		mmsport="8080" 
+		mmsc="http://mmsc.tele2.ch"
+		type="mms"
+		preferapp="" /> 
+
+<!-- Austria A1 default proxy and port removed as per LTM 18/02/2010 request this profile used streaming also-->
+	<apn carrier="live!" 
+		mcc="232" 
+		mnc="01" 
+		apn="a1.net"
+		user="ppp@a1plus.at" 
+		server="" 
+		password="ppp" 
+		authtype="1"
+		proxy="194.048.124.071" 
+		port="8001"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+<!-- Austria A1 MMS-->
+	<apn carrier="A1 MMS" 
+		mcc="232" 
+		mnc="01" 
+		apn="free.a1.net"
+		user="ppp@a1plus.at" 
+		server="" 
+		password="ppp" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="194.048.124.071" 
+		mmsport="8001" 
+		mmsc="http://mmsc.a1.net"
+		type="mms"
+		preferapp="" /> 
+
+<!-- Austria Drei default-->
+<!--	<apn carrier="Planet 3" 
+		mcc="232" 
+		mnc="10" 
+		apn="drei.at"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="213.094.078.133" 
+		mmsport="8799" 
+		mmsc="http://mmsc"
+		type=""
+		preferapp="" /> -->
+
+		<apn carrier="Planet 3" 
+		mcc="232" 
+		mnc="10" 
+		apn="drei.at"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+
+		<apn carrier="Planet 3" 
+		mcc="232" 
+		mnc="10" 
+		apn="drei.at"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="213.094.078.133" 
+		mmsport="8799" 
+		mmsc="http://mmsc"
+		type="mms"
+		preferapp="" />
+
+<!-- Austria Orange default-->
+<!--  // vijayaraghava.rc@lge.com commented orange world profile for TD_ID :-3540 on 24/3/10
+	<apn carrier="Orange World" 
+		mcc="232" 
+		mnc="05" 
+		apn="orange.world"
+		user="wap" 
+		server="" 
+		password="wap" 
+		proxy="194.024.128.118" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+-->
+<!-- Austria Orange Email-->
+	<apn carrier="Orange Web" 
+		mcc="232" 
+		mnc="05" 
+		apn="orange.web"
+		user="web" 
+		server="" 
+		password="web"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+<!--  // vijayaraghava.rc@lge.com commented orange world profile  23/4/10 -->
+<!-- Austria Orange Stream
+	<apn carrier="Orange Video" 
+		mcc="232" 
+		mnc="05" 
+		apn="orange.video"
+		user="video" 
+		server="" 
+		password="video" 
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+	<apn carrier="Orange Sync" 
+		mcc="232" 
+		mnc="05" 
+		apn="orange.sync"
+		user="web" 
+		server="" 
+		password="web" 
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+		-->
+<!-- Austria Orange MMS-->
+	<apn carrier="Orange MMS" 
+		mcc="232" 
+		mnc="05" 
+		apn="orange.mms"
+		user="mms" 
+		server="" 
+		password="mms"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="194.024.128.118" 
+		mmsport="8080" 
+		mmsc="http://mmsc.orange.at/mms/wapenc"
+		type="mms"
+		preferapp="" /> 
+
+<!-- Austria T-Mobile default-->
+	<apn carrier="T-Mobile Internet" 
+		mcc="232" 
+		mnc="03" 
+		apn="gprsinternet"
+		user="t-mobile" 
+		server="" 
+		password="tm" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+<!-- Austria T-Mobile default2-->
+<!-- removed as Per PRI on 23/4/10
+	<apn carrier="t-zones business" 
+		mcc="232" 
+		mnc="03" 
+		apn="business.gprsinternet"
+		user="" 
+		server="" 
+		password="" 
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+		-->
+<!-- Austria T-Mobile MMS-->
+	<apn carrier="T-Mobile MMS" 
+		mcc="232" 
+		mnc="03" 
+		apn="gprsmms"
+		user="t-mobile" 
+		server="" 
+		password="tm" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="010.012.000.020" 
+		mmsport="80" 
+		mmsc="http://mmsc.t-mobile.at/servlets/mms"
+		type="mms"
+		preferapp="" /> 
+
+<!-- Austria Tele2 default-->
+<!--	<apn carrier="Tele2 GPRS" 
+		mcc="232" 
+		mnc="09" 
+		apn="internet.tele2.at"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="130.244.196.090" 
+		port="8080"
+		mmsproxy="193.012.040.059" 
+		mmsport="8080" 
+		mmsc="http://mmsc.tele2.at"
+		type=""
+		preferapp="" /> -->
+
+		<apn carrier="Tele2 GPRS" 
+		mcc="232" 
+		mnc="09" 
+		apn="internet.tele2.at"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="130.244.196.090" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+
+		<apn carrier="Tele2 GPRS" 
+		mcc="232" 
+		mnc="09" 
+		apn="internet.tele2.at"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="193.012.040.059" 
+		mmsport="8080" 
+		mmsc="http://mmsc.tele2.at"
+		type="mms"
+		preferapp="" />
+
+
+<!-- Austria Telering default-->
+	<apn carrier="telering web" 
+		mcc="232" 
+		mnc="07" 
+		apn="web"
+		user="web@telering.at" 
+		server="" 
+		password="web" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+<!-- Austria Telering MMS-->
+	<apn carrier="telering mms" 
+		mcc="232" 
+		mnc="07" 
+		apn="mms"
+		user="wap@telering.at" 
+		server="" 
+		password="wap"
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="212.095.031.050" 
+		mmsport="80" 
+		mmsc="http://relay.mms.telering.at"
+		type="mms"
+		preferapp="" /> 
+<!-- Austria bob profile updated on 09/02/2010 start-->
+	
+	<!-- WAP Profile-->
+	<apn carrier="data.bob" 
+		mcc="232" 
+		mnc="11" 
+		apn="bob.at"
+		user="data@bob.at" 
+		server="" 
+		password="ppp" 
+		authtype="1"
+		proxy="194.048.124.007" 
+		port="8001"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+	
+	<!-- MMS Profile--> 
+<!-- Austria bob profile updated MMS Proxy and port vijayaraghava.rc@lge.com on 06/04/2010 start-->
+	<apn carrier="data.bob MMS" 
+		mcc="232" 
+		mnc="11" 
+		apn="mms.bob.at"
+		user="data@bob.at" 
+		server="" 
+		password="ppp" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="194.048.124.007" 
+		mmsport="8001" 
+		mmsc="http://mmsc.bob.at"
+		type="mms"
+		preferapp="" /> 
+<!-- Austria bibo profile updated on 09/02/2010 end-->
+  <!-- END :: FR Profiles Added By Mangarao-->		
+  <!-- GR Cosmote default-->
+  <!-- GR Cosmote WAP Removed as Proxy based Profiles are creating problem in the Browser Greek Language-->
+  <!-- GR Cosmote E-mail Profile name changed to Cosmote profile As per LTM request-->
+  	<apn carrier="Cosmote profile" 
+		mcc="202" 
+		mnc="01" 
+		apn="internet"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+  <!-- GR Cosmote MMS-->
+	<apn carrier="Cosmote MMS" 
+		mcc="202" 
+		mnc="01" 
+		apn="mms"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="010.010.010.020" 
+		mmsport="8080" 
+		mmsc="http://mmsc.cosmote.gr:8002"
+		type="mms"
+		preferapp="" />
+		
+  <!-- KR LGE default-->
+	<apn carrier="LGE DEFAULT" 
+		mcc="450" 
+		mnc="00" 
+		apn="tbt" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>
+		
+  <!-- KR LGE MMS-->
+	<apn carrier="LGE MMS" 
+		mcc="450" 
+		mnc="00" 
+		apn="qe" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port="" 
+		mmsproxy="203.229.247.28" 
+		mmsport="8000" 
+		mmsc="http://203.229.247.29/lgeqe" 
+		type="mms"
+		preferapp=""/>
+		
+  <!-- FI elisa default-->
+	<apn carrier="elisa WAP" 
+		mcc="244" 
+		mnc="05" 
+		apn="wap" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="213.161.040.040" 
+		port="80"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>
+		
+	<apn carrier="elisa Internet" 
+		mcc="244" 
+		mnc="05" 
+		apn="internet" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>	
+		
+  <!-- FI elisa MMS-->
+	<apn carrier="elisa MMS" 
+		mcc="244" 
+		mnc="05" 
+		apn="mms" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port="" 
+		mmsproxy="213.161.041.057" 
+		mmsport="80" 
+		mmsc="http://mms.elisa.fi" 
+		type="mms"
+		preferapp=""/>
+		
+ <!-- FI dna default--> 		
+  	<apn carrier="dna WAP" 
+		mcc="244" 
+		mnc="12" 
+		apn="wap" 
+		user="" 
+		server=""
+		password=""
+		authtype="0"
+		proxy="010.001.001.001" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>
+		
+	<apn carrier="dna Internet" 
+		mcc="244" 
+		mnc="12" 
+		apn="internet" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>	
+		
+  <!-- FI elisa MMS-->
+	<apn carrier="dna MMS" 
+		mcc="244" 
+		mnc="12" 
+		apn="mms" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port="" 
+		mmsproxy="010.001.001.002" 
+		mmsport="8080" 
+		mmsc="http://mmsc.dnafinland.fi" 
+		type="mms"
+		preferapp=""/>	
+		
+  <!-- FI Saunalahti default--> 		
+  	<apn carrier="Saunalahti WAP" 
+		mcc="244" 
+		mnc="21" 
+		apn="wap.saunalahti.fi" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="062.142.004.197" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>
+		
+	<apn carrier="Saunalahti Internet" 
+		mcc="244" 
+		mnc="21" 
+		apn="internet.saunalahti" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>	
+		
+  <!-- FI elisa MMS-->
+	<apn carrier="Saunalahti MMS" 
+		mcc="244" 
+		mnc="21" 
+		apn="mms.saunalahti.fi" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port="" 
+		mmsproxy="062.142.004.197" 
+		mmsport="8080" 
+		mmsc="http://mms.saunalahti.fi:8002/" 
+		type="mms"
+		preferapp=""/>	
+	<apn carrier="Saunalahti Email" 
+		mcc="244" 
+		mnc="21" 
+		apn="mms.saunalahti.fi" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port="" 
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>	
+  <!-- FI SONERA default and MMS --> 		
+  <!--	<apn carrier="Sonera WAP" 
+		mcc="244" 
+		mnc="91" 
+		apn="wap.sonera.net" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="195.156.025.004" 
+		port="8080"
+		mmsproxy="195.156.025.033" 
+		mmsport="8080" 
+		mmsc="http://mms.sonera.fi:8002" 
+		type=""
+		preferapp=""/> -->
+
+		<apn carrier="Sonera WAP" 
+		mcc="244" 
+		mnc="91" 
+		apn="wap.sonera.net" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="195.156.025.004" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>
+
+		<apn carrier="Sonera WAP" 
+		mcc="244" 
+		mnc="91" 
+		apn="wap.sonera.net" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="195.156.025.033" 
+		mmsport="8080" 
+		mmsc="http://mms.sonera.fi:8002" 
+		type="mms"
+		preferapp=""/>
+		
+	<apn carrier="Sonera Internet" 
+		mcc="244" 
+		mnc="91" 
+		apn="internet" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>	
+		
+	  	<apn carrier="SONERA Streaming" 
+		mcc="244" 
+		mnc="91" 
+		apn="wap.sonera.net" 
+		user="" 
+		server=""
+		password=""
+		authtype="0"
+		proxy="193.209.134.142" 
+		port="554"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>	
+		
+  <!-- BELGIUM Base default-->
+	<apn carrier="BASE WAP" 
+		mcc="206" 
+		mnc="20" 
+		apn="gprs.base.be" 
+		user="base" 
+		server=""
+		password="base"
+		authtype="1"
+		proxy="172.031.198.037" 
+		port="5080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>
+		
+  <!-- BELGIUM Base MMS-->
+	<apn carrier="Base MMS" 
+		mcc="206" 
+		mnc="20" 
+		apn="mms.base.be" 
+		user="base" 
+		server=""
+		password="base" 
+		authtype="1"
+		proxy="" 
+		port="" 
+		mmsproxy="217.072.235.001" 
+		mmsport="8080" 
+		mmsc="http://mmsc.base.be" 
+		type="mms"
+		preferapp=""/>
+
+	  <!-- BELGIUM Mobistar DEFAULT-->
+	  <!-- BELGIUM orange world name vijayaraghava.rc@lge.com  24/3/10  changed to "Mobistar internet" as per TD_ID :-3531"-->
+	<apn carrier="Mobistar Internet" 
+		mcc="206" 
+		mnc="10" 
+		apn="mworld.be" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="212.065.063.143" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>
+
+  <!-- BELGIUM Mobistar MMS -->
+	<apn carrier="Mobistar MMS" 
+		mcc="206" 
+		mnc="10" 
+		apn="mms.be" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port="" 
+		mmsproxy="212.065.063.143" 
+		mmsport="8080" 
+		mmsc="http://mmsc.mobistar.be" 
+		type="mms"
+		preferapp=""/>
+		<!-- yogish/vijay added as per PRI[RM] on 26/4/10 -->
+	<apn carrier="Mobile TV" 
+		mcc="206" 
+		mnc="10" 
+		apn="mworld.be" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port="" 
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>
+<!--Desh Deepak modified for BUG ID 5166 as per new PRI on 26/03/2010-->
+
+<!--
+
+	<apn carrier="VOX GPRS" 
+		mcc="206" 
+		mnc="10" 
+		apn="vox.lu" 
+		user="" 
+		server=""
+		password="" 
+		proxy="212.088.139.044" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>	
+
+ 	<apn carrier="VOX MMS" 
+		mcc="206" 
+		mnc="10" 
+		apn="vox.lu" 
+		user="" 
+		server=""
+		password="" 
+		proxy="" 
+		port=""
+		mmsproxy="212.088.139.044" 
+		mmsport="8080" 
+		mmsc="http://mms.vox.lu" 
+		type="mms"
+		preferapp=""/>
+
+	-->
+<!--Desh Deepak END-->
+	<!-- BELGIUM Proximus Default-->
+<!-- // LGSI_Sourabh commented for TD ID 48147
+	<apn carrier="Px Live" 
+		mcc="206" 
+		mnc="01" 
+		apn="wap.proximus.be" 
+		user="wap" 
+		server=""
+		password="wap" 
+		proxy="010.253.007.003" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>
+
+-->
+<!-- BELGIUM Proximus Email-->
+	<apn carrier="Px Internet" 
+		mcc="206" 
+		mnc="01" 
+		apn="INTERNET.PROXIMUS.BE" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>
+
+<!-- BELGIUM Proximus Email-->
+	<apn carrier="PxStreaming" 
+		mcc="206" 
+		mnc="01" 
+		apn="wap.proximus.be" 
+		user="" 
+		server=""
+		password="" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>
+		
+  <!-- BELGIUM Proximus MMS-->
+	<apn carrier="Px MMS" 
+		mcc="206" 
+		mnc="01" 
+		apn="EVENT.PROXIMUS.BE" 
+		user="mms" 
+		server=""
+		password="mms" 
+		authtype="1"
+		proxy="" 
+		port="" 
+		mmsproxy="010.055.014.075" 
+		mmsport="8080" 
+		mmsc="http://mmsc.proximus.be/mms" 
+		type="mms"
+		preferapp=""/>
+
+<!-- BELGIUM - Telenet -->
+<!-- Desh Deepak Added for Telenet profiles as per PRI on 29/07/2010-->
+
+		<apn carrier="Telenet Internet" 
+		mcc="206" 
+		mnc="05" 
+		spn="Telenet"
+		apn="telenetwap.be"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+
+		<apn carrier="Telenet MMS" 
+		mcc="206" 
+		mnc="05" 
+		spn="Telenet"
+		apn="mms.be"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="195.130.149.100" 
+		mmsport="80" 
+		mmsc="http://mmsc.telenet.be"
+		type="mms"
+		preferapp="" />
+	
+<!-- Desh Deepak End-->
+
+	<!-- DENMARK 3DK Default-->
+<!--	<apn carrier="3" 
+		mcc="238" 
+		mnc="06" 
+		apn="data.tre.dk" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="mmsproxy.3.dk" 
+		mmsport="8799" 
+		mmsc="http://mms.3.dk" 
+		type=""
+		preferapp=""/> -->
+
+		<apn carrier="3" 
+		mcc="238" 
+		mnc="06" 
+		apn="data.tre.dk" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>
+
+		<apn carrier="3" 
+		mcc="238" 
+		mnc="06" 
+		apn="data.tre.dk" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="mmsproxy.3.dk" 
+		mmsport="8799" 
+		mmsc="http://mms.3.dk" 
+		type="mms"
+		preferapp=""/>
+
+	<!-- DENMARK Call me Default-->
+	<apn carrier="Call me GPRS" 
+		mcc="238" 
+		mnc="20" 
+		spn="Call me"
+		apn="webSP" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="062.044.158.029" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>
+		
+	<!-- DENMARK Call me Default-->
+	<apn carrier="Call me Streaming" 
+		mcc="238" 
+		mnc="20" 
+		spn="Call me"
+		apn="webSP" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>
+
+  <!-- DENMARK Call me MMS-->
+	<apn carrier="Call me MMS" 
+		mcc="238" 
+		mnc="20" 
+		spn="Call me"
+		apn="mmsSP" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port="" 
+		mmsproxy="193.209.134.131" 
+		mmsport="8080" 
+		mmsc="http://mms.telia.dk" 
+		type="mms"
+		preferapp=""/>
+	<!-- DENMARK CBB Mobil Default-->
+	<apn carrier="CBB WAP GPRS" 
+		mcc="238" 
+		mnc="02" 
+		spn="CBB Mobil"
+		apn="internet" 
+		user="" 
+		server=""
+		password=""
+		authtype="0"
+		proxy="212.088.064.008" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>
+		
+	<!-- DENMARK CBB Streaming-->
+	<apn carrier="CBB Streaming" 
+		mcc="238" 
+		mnc="02" 
+		spn="CBB Mobil"
+		apn="internet" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>
+		
+  <!-- DENMARK CBB Mobil MMS-->
+	<apn carrier="CBB MMS" 
+		mcc="238" 
+		mnc="02" 
+		spn="CBB Mobil"
+		apn="sonofon" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port="" 
+		mmsproxy="212.088.064.008" 
+		mmsport="8080" 
+		mmsc="http://mms.sonofon.dk" 
+		type="mms"
+		preferapp=""/>
+	<!-- DENMARK DLG Tele Default-->
+	<apn carrier="DLG Tele GPRS" 
+		mcc="238" 
+		mnc="20" 
+		spn="DLG Tele"
+		apn="webSP" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>
+		
+  <!-- DENMARK DLG Tele MMS-->
+	<apn carrier="DLG Tele MMS" 
+		mcc="238" 
+		mnc="20" 
+		spn="DLG Tele"
+		apn="mmsSP" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port="" 
+		mmsproxy="193.209.134.131" 
+		mmsport="8080" 
+		mmsc="http://mms.telia.dk" 
+		type="mms"
+		preferapp=""/>
+	
+	<apn carrier="Telia SurfPort GPRS" 
+		mcc="238" 
+		mnc="30" 
+		apn="www.internet.mtelia.dk" 
+		user="" 
+		server=""
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>
+	<apn carrier="Telia Den MMS" 
+		mcc="238" 
+		mnc="30" 
+		apn="www.mms.mtelia.dk" 
+		user="" 
+		server=""
+		password=""
+		authtype="0"
+		proxy="" 
+		port="" 
+		mmsproxy="193.209.134.131" 
+		mmsport="8080" 
+		mmsc="http://mms.telia.dk" 
+		type="mms"
+		preferapp=""/>
+	<!-- DENMARK TDC Default-->
+	<apn carrier="TDC WAP" 
+		mcc="238" 
+		mnc="01" 
+		spn="TDC"
+		apn="wap" 
+		user="" 
+		server=""
+		password=""
+		authtype="0"
+		proxy="194.182.251.015" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>
+
+	<!-- DENMARK TDC Streaming-->
+	<apn carrier="TDC Streaming" 
+		mcc="238" 
+		mnc="01" 
+		spn="TDC"
+		apn="wap" 
+		user="" 
+		server=""
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>
+				
+  <!-- DENMARK TDC MMS-->
+	<apn carrier="TDC MMS" 
+		mcc="238" 
+		mnc="01" 
+		spn="TDC"
+		apn="mms" 
+		user="" 
+		server=""
+		password=""
+		authtype="0"
+		proxy="" 
+		port="" 
+		mmsproxy="194.182.251.015" 
+		mmsport="8080" 
+		mmsc="http://192.168.241.114:8002" 
+		type="mms"
+		preferapp=""/>
+
+	<!-- DENMARK Telenor Default-->
+	<apn carrier="Telenor WAP" 
+		mcc="238" 
+		mnc="02" 
+		spn="Telenor DK"
+		apn="internet" 
+		user="" 
+		server=""
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>
+		
+  <!-- DENMARK Telenor MMS-->
+	<apn carrier="Telenor MMS" 
+		mcc="238" 
+		mnc="02" 
+		spn="Telenor DK"
+		apn="telenor" 
+		user="" 
+		server=""
+		password=""
+		authtype="0"
+		proxy="" 
+		port="" 
+		mmsproxy="212.088.064.008" 
+		mmsport="8080" 
+		mmsc="http://mms.telenor.dk" 
+		type="mms"
+		preferapp=""/>
+	
+	<!-- DENMARK Telia Default-->
+	<!--Desh Deepak made spn field as blank as spn value is not read from SIM-->
+	<apn carrier="Telia SurfPort GPRS" 
+		mcc="238" 
+		mnc="20"
+		apn="www.internet.mtelia.dk" 
+		user="" 
+		server=""
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>
+		
+  <!-- DENMARK Telia MMS-->
+	<apn carrier="Telia MMS" 
+		mcc="238" 
+		mnc="20" 
+		apn="www.mms.mtelia.dk" 
+		user="" 
+		server=""
+		password=""
+		authtype="0"
+		proxy="" 
+		port="" 
+		mmsproxy="193.209.134.131" 
+		mmsport="8080" 
+		mmsc="http://mms.telia.dk" 
+		type="mms"
+		preferapp=""/>
+	
+	<!-- DENMARK Telmore Default-->
+	<apn carrier="Telmore WAP" 
+		mcc="238" 
+		mnc="01" 
+		spn="TELMORE"
+		apn="wap" 
+		user="" 
+		server=""
+		password=""
+		authtype="0"
+		proxy="194.182.251.015" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>
+	<!-- DENMARK Telmore Streaming-->
+	<apn carrier="Telmore Streaming" 
+		mcc="238" 
+		mnc="01" 
+		spn="TELMORE"
+		apn="wap" 
+		user="" 
+		server=""
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>
+		
+  <!-- DENMARK Telmore MMS-->
+	<apn carrier="Telmore MMS" 
+		mcc="238" 
+		mnc="01" 
+		spn="TELMORE"
+		apn="mms" 
+		user="" 
+		server=""
+		password=""
+		authtype="0"
+		proxy="" 
+		port="" 
+		mmsproxy="194.182.251.015" 
+		mmsport="8080" 
+		mmsc="http://192.168.241.114:8002" 
+		type="mms"
+		preferapp=""/>
+	<!--Norway Chess WAP-->
+	<!-- senthilvel Norway Chess profiles are removed as per Mr.Pejman FTE request in EVE -->
+	<!--Yogish/Vijay added to sync with PRI on 24/04/2010 -->
+<apn carrier="Chess Mobil" 
+		mcc="242" 
+		mnc="02" 
+		spn="2420256"
+		apn="netcom"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="010.254.254.010" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+	<!--Norway Chess Streaming-->
+	<apn carrier="Chess Streaming " 
+		mcc="242" 
+		mnc="02" 
+		spn="2420256"
+		apn="netcom"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+	<!--NORWAY Chess MMS-->
+	<apn carrier="Chess MMS" 
+		mcc="242" 
+		mnc="02" 
+		spn="2420256"
+		apn="mms.netcom.no" 
+		user="mms" 
+		server=""
+		password="netcom" 
+		authtype="1"
+		proxy="" 
+		port="" 
+		mmsproxy="212.169.066.004" 
+		mmsport="8080" 
+		mmsc="http://mm/" 
+		type="mms"
+		preferapp=""/>
+
+	<!--Yogish/Vijay added to sync with PRI on 24/04/2010 -->
+	<!--Norway Netcom WAP-->
+	<apn carrier="NetCom Mobil" 
+		mcc="242" 
+		mnc="02" 
+		spn="2420290"
+		apn="netcom"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="010.254.254.010" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+	<!--Norway Netcom Streaming-->
+	<!--Desh Deepak commented as per pri on 18092010-->
+	<!--
+	<apn carrier="NetCom Streaming" 
+		mcc="242" 
+		mnc="02" 
+		spn="2420290"
+		apn="netcom"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+-->
+	<!--NORWAY Netcom MMS-->
+	<apn carrier="NetCom MMS" 
+		mcc="242" 
+		mnc="02" 
+		spn="2420290"
+		apn="mms.netcom.no" 
+		user="mms" 
+		server=""
+		password="netcom" 
+		authtype="1"
+		proxy="" 
+		port="" 
+		mmsproxy="212.169.066.004" 
+		mmsport="8080" 
+		mmsc="http://mm/" 
+		type="mms"
+		preferapp=""/>
+
+	<!--Norway Tele2 WAP-->
+	<apn carrier="Tele2 WAP" 
+		mcc="242" 
+		mnc="02" 
+		spn="Tele2"
+		apn="internet.tele2.no"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="130.244.196.090" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+<!--vijayaraghava.rc changed profile name Tele2Java <- tele2 for on 16\4\10 TD-ID:7389-->
+	<!--Norway Tele2 Java + Email-->
+	<apn carrier="Tele2 Java" 
+		mcc="242" 
+		mnc="02" 
+		spn="Tele2"
+		apn="internet.tele2.no"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+
+	<!--NORWAY Tele2 MMS-->
+	<apn carrier="Tele2 MMS" 
+		mcc="242" 
+		mnc="02" 
+		spn="Tele2"
+		apn="mms.tele2.no" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port="" 
+		mmsproxy="193.012.040.014" 
+		mmsport="8080" 
+		mmsc="http://mmsc.tele2.no" 
+		type="mms"
+		preferapp=""/>
+
+	<!--Norway Telenor WAP-->
+
+<!--vijayaraghava.rc modified telenor profiles as per TD-ID : 7392 on 16\4\10Norway Telenor WAP-->
+<!--	<apn carrier="Telenor MMS" 
+		mcc="242" 
+		mnc="01" 
+		apn="telenor"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="010.010.010.011" 
+		mmsport="8080" 
+		mmsc="http://mmsc/" 
+		type=""
+		preferapp="" /> -->
+
+		
+
+		<apn carrier="Telenor MMS" 
+		mcc="242" 
+		mnc="01" 
+		apn="telenor"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="010.010.010.011" 
+		mmsport="8080" 
+		mmsc="http://mmsc/" 
+		type="mms"
+		preferapp="" />
+
+	<!--Norway Telenor Streaming java Email internet-->
+	<apn carrier="Telenor" 
+		mcc="242" 
+		mnc="01" 
+		apn="telenor"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp="" /> 
+
+
+ <!-- NL AH_Mobiel default-->
+ <!-- Senthilvel AH_Mobiel profile is removed as per Mr.Guido Hoogvorst request Td.id: 40950 -->
+
+  <!-- NL KPN default-->
+<!--	<apn carrier="KPN/Hi Mobiel Internet"
+		mcc="204" 
+		mnc="08" 
+		apn="portalmmm.nl"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy=""
+		port=""
+		mmsproxy="10.10.100.20" 
+		mmsport="5080" 
+		mmsc="http://mp.mobiel.kpn/mmsc"
+		type=""
+		preferapp="" /> -->
+
+<!-- NL - KPN -->
+<!--Desh Deepak added KPN profile as per PRI on 29/07/2010 -->
+
+		<apn carrier="Mobiel Internet"
+		mcc="204" 
+		mnc="08" 
+		apn="portalmmm.nl"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy=""
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+
+		<apn carrier="KPN MMS"
+		mcc="204" 
+		mnc="08" 
+		apn="portalmmm.nl"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy=""
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="http://mp.mobiel.kpn/mmsc"
+		type="mms"
+		preferapp="" />
+
+<!--Desh Deepak End -->
+
+<!-- LGSI_Sourabh Remove the NL KPN Mobiel Streaming APN as per Mr. Benjamin request through mail -->
+<!-- NL KPN Streaming-->
+
+	 <!-- NL KPN default-->
+	 <!-- Mobiel Internet profile is removed as it belongs Profile CA Postpaid-->
+ 
+		
+  <!-- NL Rabo Mobiel default-->
+  <!--Apn carrier name is added with . -->
+  <!-- Senthilvel - Rabo mobiel profile has been removed as per Mr.Guido Hoogvorst request Id: 45422 -->
+  
+  <!--Desh Deepak added the Rabo Mobeil profile as per PRI on 06/08/2010 -->
+
+	<apn carrier="Rabo Mobiel Int."
+		mcc="204" 
+		mnc="08" 
+		spn="Rabo Mobiel"
+		apn="rabo"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy=""
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+
+		<apn carrier="Rabo Mobiel MMS"
+		mcc="204" 
+		mnc="08" 
+		spn="Rabo Mobiel"
+		apn="rabo"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy=""
+		port=""
+		mmsproxy="010.010.100.010" 
+		mmsport="5080" 
+		mmsc="http://mp.mobiel.kpn/mmsc"
+		type="mms"
+		preferapp="" />
+
+		<!--Desh Deepak End -->
+
+
+	<!--Netherland T-Mobile WAP-->
+	<apn carrier="web'n'walk" 
+		mcc="204" 
+		mnc="16" 
+		apn="internet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+	<!--Netherland T-Mobile MMS-->
+	<apn carrier="T-Mobile MMS" 
+		mcc="204" 
+		mnc="16" 
+		apn="mms" 
+		user="tmobilemms" 
+		server=""
+		password="tmobilemms" 
+		authtype="1"
+		proxy="" 
+		port="" 
+		mmsproxy="010.010.010.011" 
+		mmsport="8080" 
+		mmsc="http://t-mobilemms" 
+		type="mms"
+		preferapp=""/>
+
+	<!--Netherland T-Mobile WAP-->
+	<apn carrier="web'n'walk" 
+		mcc="204" 
+		mnc="20" 
+		apn="internet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+	<!--Netherland T-Mobile MMS-->
+	<apn carrier="T-Mobile MMS" 
+		mcc="204" 
+		mnc="20" 
+		apn="mms" 
+		user="tmobilemms" 
+		server=""
+		password="tmobilemms" 
+		authtype="1"
+		proxy="" 
+		port="" 
+		mmsproxy="010.010.010.011" 
+		mmsport="8080" 
+		mmsc="http://t-mobilemms" 
+		type="mms"
+		preferapp=""/>
+
+	<!--Netherland Tele2 WAP-->
+<!--	<apn carrier="Tele2 GPRS" 
+		mcc="204" 
+		mnc="02" 
+		apn="internet.tele2.nl"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="130.244.196.090" 
+		port="8080" 		
+		mmsproxy="193.012.040.064" 
+		mmsport="8080" 
+		mmsc="http://mmsc.tele2.nl" 
+		type=""
+		preferapp="" /> -->
+
+		<apn carrier="Tele2 GPRS" 
+		mcc="204" 
+		mnc="02" 
+		apn="internet.tele2.nl"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="130.244.196.090" 
+		port="8080" 		
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp="" />
+
+		<apn carrier="Tele2 GPRS" 
+		mcc="204" 
+		mnc="02" 
+		apn="internet.tele2.nl"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port="" 		
+		mmsproxy="193.012.040.064" 
+		mmsport="8080" 
+		mmsc="http://mmsc.tele2.nl" 
+		type="mms"
+		preferapp="" />
+<!-- senthilvel removed Tele2 GPRS 240 - 07 mcc2/mnc2 confusion -->
+
+    <!-- LGSI_Sourabh Remove the Telfort Spot APN and add the Telfort Mobiel Internet APN as per Mr. Benjamin request through mail -->
+	<!--Netherland Telfort Mobiel Internet-->
+<!--	<apn carrier="Telfort Mobiel Internet" 
+		mcc="204" 
+		mnc="12" 
+		apn="internet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy=""
+		port="" 		
+		mmsproxy="193.113.200.195" 
+		mmsport="8080" 
+		mmsc="http://mms" 
+		type=""
+		preferapp="" /> -->
+
+		<apn carrier="Telfort Mobiel Internet" 
+		mcc="204" 
+		mnc="12" 
+		apn="internet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy=""
+		port="" 		
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp="" />
+
+		<apn carrier="Telfort Mobiel Internet" 
+		mcc="204" 
+		mnc="12" 
+		apn="internet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy=""
+		port="" 		
+		mmsproxy="193.113.200.195" 
+		mmsport="8080" 
+		mmsc="http://mms" 
+		type="mms"
+		preferapp="" />
+		
+	<!--Netherland Telfort WAP-->
+    <!--Netherland Telfort Spot one more profile with mcc,mnc=204,08 belongs to profile CA postpaid-->
+	<!--Netherland Telfort WAP-->
+
+	<!--Netherland Vodafone WAP-->
+<!--	<apn carrier="Vodafone Live!" 
+		mcc="204" 
+		mnc="04" 
+		apn="live.vodafone.com"
+		user="vodafone" 
+		server="" 
+		password="vodafone" 
+		authtype="1"
+		proxy="192.168.251.150"
+		port="8799" 		
+		mmsproxy="192.168.251.150" 
+		mmsport="8799" 
+		mmsc="http://mmsc.mms.vodafone.nl"
+		type=""
+		preferapp="" /> -->
+
+		<apn carrier="Vodafone Live!" 
+		mcc="204" 
+		mnc="04" 
+		apn="live.vodafone.com"
+		user="vodafone" 
+		server="" 
+		password="vodafone" 
+		authtype="1"
+		proxy="192.168.251.150"
+		port="8799" 		
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+
+		<apn carrier="Vodafone Live!" 
+		mcc="204" 
+		mnc="04" 
+		apn="live.vodafone.com"
+		user="" 
+		server="" 
+		password="" 
+		authtype="1"
+		proxy=""
+		port="" 		
+		mmsproxy="192.168.251.150" 
+		mmsport="8799" 
+		mmsc="http://mmsc.mms.vodafone.nl"
+		type="mms"
+		preferapp="" />
+
+<!--Netherland Vodafone Streaming-->
+	<apn carrier="Vodafone Streaming" 
+		mcc="204" 
+		mnc="04" 
+		apn="live.vodafone.com"
+		user="vodafone" 
+		server="" 
+		password="vodafone" 
+		authtype="1"
+		proxy=""
+		port="" 		
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+	<!--Greece Vodafone WAP1-->
+  <!-- GR Vf live and Vf live! Prepay Removed as Proxy based Profiles are creating problem in the Browser Greek Language-->
+  <!-- GR Vodafone Internet Profile name changed to Vodafone GR profile As per LTM request-->	
+	<!--Greece Vodafone WAP3-->
+	<apn carrier="Vodafone GR profile" 
+		mcc="202" 
+		mnc="05" 
+		apn="internet.vodafone.gr"
+		user="user" 
+		server="" 
+		password="pass" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+	
+
+	<!--Greece Vodafone MMS-->
+	<apn carrier="Vf MMS" 
+		mcc="202" 
+		mnc="05" 
+		apn="mms.vodafone.net" 
+		user="user" 
+		server=""
+		password="pass" 
+		authtype="1"
+		proxy="" 
+		port="" 
+		mmsproxy="213.249.019.049" 
+		mmsport="5080" 
+		mmsc="http://mms.vodafone.gr" 
+		type="mms"
+		preferapp=""/>
+<!-- Desh Deepak Added Q-Telecom Profile on 20/04/2010 -->
+<!-- Greece Q-Telecom WAP and MMS Profile -->
+ <!-- <apn carrier="Q WAP" 
+		mcc="202" 
+		mnc="09" 
+		apn="q-wap.myq.gr" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="192.168.080.134" 
+		port="9201" 
+		mmsproxy="192.168.080.134" 
+		mmsport="8080" 
+		mmsc="http://mms.myq.gr" 
+		type=""
+		preferapp=""/> -->
+
+		<apn carrier="Q WAP" 
+		mcc="202" 
+		mnc="09" 
+		apn="q-wap.myq.gr" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="192.168.080.134" 
+		port="9201" 
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>
+
+		<apn carrier="Q WAP" 
+		mcc="202" 
+		mnc="09" 
+		apn="q-wap.myq.gr" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port="" 
+		mmsproxy="192.168.080.134" 
+		mmsport="8080" 
+		mmsc="http://mms.myq.gr" 
+		type="mms"
+		preferapp=""/>
+
+<!--Greece Q-Telecom default Profile-->
+<apn carrier="Q Internet" 
+		mcc="202" 
+		mnc="09" 
+		apn="myq" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port="" 
+		mmsproxy="" 
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp=""/>
+<!--Greece Q-Telecom WAP and MMS Profile END-->
+
+
+		<!--Greece Wind WAP-->
+  <!-- GR WIND Plus Prepay Removed as Proxy based Profiles are creating problem in the Browser Greek Language-->
+  <!-- GR WIND E-mail Profile name changed to WIND GR profile As per LTM request-->			
+	<apn carrier="WIND GR profile" 
+		mcc="202" 
+		mnc="10" 
+		apn="gint.b-online.gr"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+	<apn carrier="WIND TV" 
+		mcc="202" 
+		mnc="10" 
+		apn="timgr.tv"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+	<!--Greece Wind MMS-->
+	<apn carrier="WIND MMS" 
+		mcc="202" 
+		mnc="10" 
+		apn="mnet.b-online.gr" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port="" 
+		mmsproxy="192.168.200.011" 
+		mmsport="9401" 
+		mmsc="http://192.168.200.95/servlets/mms" 
+		type="mms"
+		preferapp=""/>
+
+	<!--Netherland Tele2 WAP & MMS-->
+<!--	<apn carrier="Tele2 GPRS" 
+		mcc="204" 
+		mnc="07" 
+		apn="internet.tele2.nl"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="130.244.196.090" 
+		port="8080"
+		mmsproxy="193.012.040.064" 
+		mmsport="8080" 
+		mmsc="http://mmsc.tele2.nl"
+		type=""
+		preferapp="" /> -->
+
+		<apn carrier="Tele2 GPRS" 
+		mcc="204" 
+		mnc="07" 
+		apn="internet.tele2.nl"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="130.244.196.090" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+
+		<apn carrier="Tele2 GPRS" 
+		mcc="204" 
+		mnc="07" 
+		apn="internet.tele2.nl"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="193.012.040.064" 
+		mmsport="8080" 
+		mmsc="http://mmsc.tele2.nl"
+		type="mmms"
+		preferapp="" />
+		
+	<apn carrier="SKT" 
+		mcc="450" 
+		mnc="05" 
+		apn="nate.sktelecom.com"
+		user="" 
+		server="*" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port="80" 
+		mmsproxy=""
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp="" />  
+
+	<apn carrier="KTF" 
+		mcc="450" 
+		mnc="08" 
+		apn="default.ktfwing.com"
+		user="" 
+		server="*" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port="80" 
+		mmsproxy=""
+		mmsport="" 
+		mmsc="" 
+		type="default"
+		preferapp="" /> 
+
+<!--Hungary - Djuice -->
+
+<!--Desh Deepak added DJuice profiles as per PRI on 29/07/2010 -->
+
+		<apn carrier="NET" 
+		mcc="216" 
+		mnc="01" 
+		spn="Djuice"
+		apn="net"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+		<apn carrier="WAP" 
+		mcc="216" 
+		mnc="01" 
+		spn="Djuice"
+		apn="wap"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="084.225.255.001" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+<!--changed authtype to 0 by archana -->
+		<apn carrier="MMS" 
+		mcc="216" 
+		mnc="01"
+		spn="Djuice"
+		apn="mms"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"   
+		proxy="" 
+		port=""
+		mmsproxy="084.225.255.001" 
+		mmsport="8080" 
+		mmsc=" http://mmsc.pgsm.hu/"
+		type="mms"
+		preferapp="" /> 
+
+<!--Desh Deepak End -->
+
+<!--Hunagry - Telenor -->
+
+<!--Desh Deepak added Telenor profiles as per PRI on 29/07/2010 -->
+
+		<apn carrier="Telenor Online" 
+		mcc="216" 
+		mnc="01"
+		spn="Telenor HU"
+		apn="online"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+		<!--Desh Deepak commented as profile is removed from PRI on 23092010-->
+		<!--
+		<apn carrier="Telenor WAP" 
+		mcc="216" 
+		mnc="01" 
+		spn="Telenor HU"
+		apn="mms"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="084.225.255.001" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+		-->
+		<apn carrier="Telenor MMS" 
+		mcc="216" 
+		mnc="01" 
+		spn="Telenor HU"
+		apn="mms"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="084.225.255.001" 
+		mmsport="8080" 
+		mmsc="http://mmsc.telenor.hu/"
+		type="mms"
+		preferapp="" /> 
+<!--Desh Deepak End -->
+
+	<!--Hungary pannon WAP-->
+<!--Prafull Gupta removed  profiles for BUG ID 3563 on 16/04/2010 -->
+<!--
+	<apn carrier="Pannon W@P 2.0" 
+		mcc="216" 
+		mnc="01" 
+		apn="wap"
+		user="" 
+		server="" 
+		password="" 
+		proxy="084.225.255.001" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+	<apn carrier="Pannon W@P 1.0" 
+		mcc="216" 
+		mnc="01" 
+		apn="wap"
+		user="" 
+		server="" 
+		password="" 
+		proxy="084.225.255.001" 
+		port="9201"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+	<apn carrier="Pannon W@P" 
+		mcc="216" 
+		mnc="01" 
+		apn="wap"
+		user="" 
+		server="" 
+		password="" 
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+-->
+<!--Prafull Gupta end-->
+	
+<!--Desh Deepak added for BUG ID 3547 as new profile added on 23/03/2010-->
+<!--Desh Deepak commented as per Ramesha mail on 29/07/2010 -->
+<!--
+		<apn carrier="Pannon NET" 
+		mcc="216" 
+		mnc="01" 
+		apn="net"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+	<apn carrier="PANNON MMS 2.0" 
+		mcc="216" 
+		mnc="01" 
+		apn="mms" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port="" 
+		mmsproxy="084.225.255.001" 
+		mmsport="8080" 
+		mmsc="http://mmsc.pgsm.hu/" 
+		type="mms"
+		preferapp=""/>
+
+	<apn carrier="PANNON MMS 1.0" 
+		mcc="216" 
+		mnc="01" 
+		apn="mms" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port="" 
+		mmsproxy="084.225.255.001" 
+		mmsport="9201" 
+		mmsc="http://mmsc.pgsm.hu/" 
+		type="mms"
+		preferapp=""/>
+-->
+<!-- senthilvel - Hungary - T-Mobile -->
+
+<!--Hungary T-Mobile WAP-->
+<!--Prafull Gupta removed  profiles for BUG ID 3563 on 16/04/2010 -->
+<!--
+	<apn carrier="t-zones WAP" 
+		mcc="216" 
+		mnc="30" 
+		apn="wap"
+		user="wap" 
+		server="" 
+		password="Wap" 
+		proxy="212.051.126.002" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+-->
+<!-- Yogish Changed on 24/10/2010 -->
+		
+	<!-- sahana added spn -->
+
+	<apn carrier="web´n´walk" 
+		mcc="216" 
+		mnc="30" 
+		spn="T-Mobile H"
+		apn="wnw"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+	
+	<!-- sahana added spn and changed the name of the carrier-->
+		
+	<apn carrier="t-zones NET" 
+		mcc="216" 
+		mnc="30" 
+		spn="T-Mobile H"
+		apn="internet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+	<!--Hungary T-Mobile MMS-->
+	
+	<!-- sahana added spn -->
+
+	<apn carrier="T-Mobile MMS" 
+		mcc="216" 
+		mnc="30" 
+		spn="T-Mobile H"
+		apn="mms" 
+		user="mms" 
+		server=""
+		password="mms"
+		authtype="1"
+		proxy="" 
+		port="" 
+		mmsproxy="212.051.126.010" 
+		mmsport="8080" 
+		mmsc="http://mms.t-mobile.hu/servlets/mms" 
+		type="mms"
+		preferapp=""/>
+
+<!-- senthilvel - Hungary - Vodafone -->
+
+<!--Desh Deepak modified for BUG ID 3554  as per LTM request changed 0n 24/03/2010 Vodafone Live! ,Vodafone Live! VitaMAX as two more profiles are not needed-->
+
+<!-- sahana uncommented,added spn and authtype start-->
+
+    <apn carrier="Vodafone Live! VitaMAX" 
+		mcc="216" 
+		mnc="70"
+		spn="21670xx1"
+		apn="vitamax.wap.vodafone.net"
+		user="vodawap" 
+		server="" 
+		password="vodawap" 
+		authtype="1"
+		proxy="010.009.008.007" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+		
+<!-- sahana uncommented,added spn and authtype end-->
+		
+<!-- sahana uncommented,added spn and authtype start-->
+<!--Desh Deepak changed the position as proper profile was not selected on 23092010 -->
+
+<apn carrier="Vodafone Internet" 
+		mcc="216" 
+		mnc="70" 
+		spn="21670xx2"
+		apn="internet.vodafone.net"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+	<apn carrier="Vodafone Live!" 
+		mcc="216" 
+		mnc="70"
+		spn="21670xx2"
+		apn="wap.vodafone.net"
+		user="vodawap" 
+		server="" 
+		password="vodawap" 
+		authtype="1"
+		proxy="010.009.008.007" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+<!-- sahana uncommented,added spn and authtype end-->
+<!--Desh Deepak modified for BUG ID 3554 END-->
+<!-- Sameer modified for the BUG ID 56731 as PRI changed 0n 28/12/2009-->
+	
+		
+
+		<apn carrier="Vodafone Internet VitaMAX" 
+		mcc="216" 
+		mnc="70" 
+		spn="21670xx1"
+		apn="vitamax.internet.vodafone.net"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport=""
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+<!--Desh Deepak Addeed for vodafone pre-paid for spn="21670xx1" on 23092010-->
+		<apn carrier="Vodafone MMS" 
+		mcc="216" 
+		mnc="70"
+		spn="21670xx1"
+		apn="mms.vodafone.net" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port="" 
+		mmsproxy="080.244.097.002" 
+		mmsport="8080" 
+		mmsc="http://mms.vodafone.hu/servlets/mms" 
+		type="mms"
+		preferapp=""/>
+	
+
+<!-- Sameer modified for the BUG ID 68595 as per LTM request changed 0n 01/03/2009 Vf Internet, Vf Internet VitaMAX,Vf streaming, Vf Streaming VitaMAX removed as per LTM-->
+<!--
+	<apn carrier="Vf Internet" 
+		mcc="216" 
+		mnc="70" 
+		spn="vodafone HU"
+		apn="internet.vodafone.net"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+
+		
+
+	<apn carrier="Vf Internet VitaMAX" 
+		mcc="216" 
+		mnc="70" 
+		spn="vodafone HU"
+		apn="vitamax.internet.vodafone.net"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+		
+		
+	<apn carrier="Vf Streaming" 
+		mcc="216" 
+		mnc="70" 
+		apn="wap.vodafone.net"
+		user="" 
+		server="" 
+		password=""
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+	<apn carrier="Vf Streaming VitaMAX" 
+		mcc="216" 
+		mnc="70" 
+		apn="vitamax.wap.vodafone.net"
+		user="" 
+		server="" 
+		password="" 
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />  -->
+<!-- Sameer modified for the BUG ID 68595 as per LTM request changed 0n 01/03/2009 Vf Internet, Vf Internet VitaMAX,Vf streaming, Vf Streaming VitaMAX removed as per LTM-->
+
+	<!--Hungary Vodafone MMS-->
+
+	<apn carrier="Vodafone MMS" 
+		mcc="216" 
+		mnc="70"
+		spn="21670xx2"
+		apn="mms.vodafone.net" 
+		user="" 
+		server=""
+		password="" 
+		authtype="0"
+		proxy="" 
+		port="" 
+		mmsproxy="080.244.097.002" 
+		mmsport="8080" 
+		mmsc="http://mms.vodafone.hu/servlets/mms" 
+		type="mms"
+		preferapp=""/>
+		
+	<!--vijayar - Croatia-T-Mobile -->
+	<!-- vijayaraghava.rc@lge.com commented this profile as per TD-ID : 7649
+		<apn carrier="t-zones" 
+		mcc="219" 
+		mnc="01" 
+		apn="www.htgprs.hr"
+		user="" 
+		server="" 
+		password="" 
+		proxy="010.012.000.003" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+	-->
+		<apn carrier="T-Mobile Internet" 
+		mcc="219" 
+		mnc="01" 
+		apn="web.htgprs"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+		
+		<apn carrier="TM HR MMS" 
+		mcc="219" 
+		mnc="01" 
+		apn="mms.htgprs"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="010.012.000.004" 
+		mmsport="8080" 
+		mmsc="http://mms.t-mobile.hr/servlets/mms"
+		type="mms"
+		preferapp="" />
+	<!-- vijayaraghava.rc@lge.com added for issue TD-ID 7645 16\4\10-->
+
+<!--Desh Deepak removed PROXY and PORT as per BUG ID 9835 and PRI on 20/05/2010-->		
+<!--		<apn carrier="Tele2 Internet" 
+		mcc="219" 
+		mnc="02" 
+		apn="internet.tele2.hr"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="193.012.040.066" 
+		mmsport="8080" 
+		mmsc="http://mmsc.tele2.hr"
+		type=""
+		preferapp="" /> -->
+
+		<apn carrier="Tele2 Internet" 
+		mcc="219" 
+		mnc="02" 
+		apn="internet.tele2.hr"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+
+		<apn carrier="Tele2 Internet" 
+		mcc="219" 
+		mnc="02" 
+		apn="internet.tele2.hr"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="193.012.040.066" 
+		mmsport="8080" 
+		mmsc="http://mmsc.tele2.hr"
+		type="mms"
+		preferapp="" />
+<!--Desh Deepak END-->
+
+<!--Desh Deepak commented streaming profile as per BUG ID 9835 and PRI on 20/05/2010-->
+<!--
+		<apn carrier="Tele2 Streaming" 
+		mcc="219" 
+		mnc="02" 
+		apn="internet.tele2.hr"
+		user="" 
+		server="" 
+		password="" 
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+-->
+<!--Desh Deepak END-->
+
+	<!-- vijayaraghava.rc END--> 
+	
+	<!-- Croatia VIPnet -->
+		<apn carrier="Vip Start" 
+		mcc="219" 
+		mnc="10" 
+		apn="gprs0.vipnet.hr"
+		user="38591" 
+		server="" 
+		password="38591" 
+		authtype="1"
+		proxy="212.091.099.091" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+		
+		<apn carrier="Broadband" 
+		mcc="219" 
+		mnc="10" 
+		apn="data.vip.hr"
+		user="38591" 
+		server="" 
+		password="38591" 
+		authtype="1"
+		proxy="212.091.099.091" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+		
+		<apn carrier="Streaming" 
+		mcc="219" 
+		mnc="10" 
+		apn="gprs0.vipnet.hr"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+		
+		<apn carrier="Broadband Streaming" 
+		mcc="219" 
+		mnc="10" 
+		apn="data.vip.hr"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+		
+		<apn carrier="Vip MMS" 
+		mcc="219" 
+		mnc="10" 
+		apn="mms.vipnet.hr"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="212.091.099.091" 
+		mmsport="8080" 
+		mmsc="http://mms.vipnet.hr/servlets/mms"
+		type="mms"
+		preferapp="" /> 
+								
+	<!-- Bulgaria-GLOBUL -->
+		<apn carrier="GPRS GLOBUL" 
+		mcc="284" 
+		mnc="05" 
+		apn="globul"
+		user="globul" 
+		server="" 
+		password="globul" 
+		authtype="1"
+		proxy="192.168.088.011" 
+		port="8004"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+		
+		<apn carrier="GLOBUL MMS GPRS" 
+		mcc="284" 
+		mnc="05" 
+		apn="mms.globul.bg"
+		user="mms" 
+		server="" 
+		password="" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="192.168.087.011" 
+		mmsport="8004" 
+		mmsc="http://mmsc1.mms.globul.bg:8002"
+		type="mms"
+		preferapp="" /> 
+	
+	<!-- Bulgaria - M-Tel -->
+		<apn carrier="M- Tel WAP GPRS" 
+		mcc="284" 
+		mnc="01" 
+		apn="wap-gprs.mtel.bg"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="213.226.006.065" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+		
+		<apn carrier="M- Tel Internet GPRS" 
+		mcc="284" 
+		mnc="01" 
+		apn="wap-gprs.mtel.bg"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />  
+		
+		<apn carrier="M-Tel MMS" 
+		mcc="284" 
+		mnc="01" 
+		apn="mms-gprs.mtel.bg"
+		user="mtel" 
+		server="" 
+		password="mtel" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="010.150.000.033" 	
+		mmsport="8080" 
+		mmsc="http://mmsc"
+		type="mms"
+		preferapp="" /> 
+		
+	<!-- Bulgaria - Vivacom -->
+	<!-- Bulgaria - Vivacom profiles names changed by vijayaraghava.rc@lge.com 24/3/10 as per PRI for TD : 3796 -->
+	<!-- sahana added spn 17/09/2010 as per PRI -->
+	
+		<apn carrier="vivacom WAP GPRS" 
+		mcc="284" 
+		mnc="03" 
+		spn="VIVACOM"
+		apn="wap.vivacom.bg"
+		user="wap" 
+		server="" 
+		password="wap" 
+		authtype="1"
+		proxy="192.168.123.123" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />  
+	
+		
+	<!-- Bulgaria - Vivacom profiles proxy  removed by vijayaraghava.rc@lge.com 16/4/10 as per PRI for TD : 3796 -->
+	<!-- sahana added spn 17/09/2010 as per PRI -->
+		<apn carrier="vivacom Internet" 
+		mcc="284" 
+		mnc="03" 
+		spn="VIVACOM"
+		apn="Internet.vivacom.bg"
+		user="vivacom" 
+		server="" 
+		password="vivacom" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />  
+		
+	<!-- sahana added spn 17/09/2010 as per PRI -->
+	
+		<apn carrier="vivacom MMS" 
+		mcc="284" 
+		mnc="03" 
+		spn="VIVACOM"
+		apn="mms.vivacom.bg"
+		user="mms" 
+		server="" 
+		password="mms" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="192.168.123.123" 	
+		mmsport="8080" 
+		mmsc="http://mmsc.vivacom.bg"
+		type="mms"
+		preferapp="" /> 
+	<!-- Bosnia - Bhtelecom  -->
+		<apn carrier="BHMobileWAP" 
+		mcc="218" 
+		mnc="90" 
+		apn="active.bhmobile.ba"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="195.222.056.041" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+		
+		<apn carrier="BHMobileInternet" 
+		mcc="218" 
+		mnc="90" 
+		apn="active.bhmobile.ba"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />  
+		
+		<apn carrier="BHMobileMMS" 
+		mcc="218" 
+		mnc="90" 
+		apn="mms.bhmobile.ba"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="195.222.056.041" 	
+		mmsport="8080" 
+		mmsc="http://mms.bhmobile.ba/cmmsc/post"
+		type="mms"
+		preferapp="" /> 
+	<!-- Bosnia - Eronet -->
+		<apn carrier="ERONET GPRS" 
+		mcc="218" 
+		mnc="03" 
+		apn="gprs.eronet.ba"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+		
+		<apn carrier="ERONET WAP" 
+		mcc="218" 
+		mnc="03" 
+		apn="wap.eronet.ba"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="010.012.003.010" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />  
+		
+		<apn carrier="MMS-ERONET" 
+		mcc="218" 
+		mnc="03" 
+		apn="mms.eronet.ba"
+		user="" 
+		server="" 
+		password=""
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="010.012.003.011" 	
+		mmsport="8080" 
+		mmsc="http://mms.gprs.eronet.ba/mms/wapenc"
+		type="mms"
+		preferapp="" /> 
+	
+	<!-- Bosnia - Mtel  proxy modified from 192.168.061.011 to 192.168.061.010 -->
+	<!--Desh Deepak modified the names of all profiles as per updated PRI for BUG ID 5171 on 26/03/2010-->
+
+		<apn carrier="m:web Standard" 
+		mcc="218" 
+		mnc="05" 
+		apn="3g1"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="192.168.061.010" 
+		port="80"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+		
+		<apn carrier="m:web 100 MB" 
+		mcc="218" 
+		mnc="05" 
+		apn="3g2"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="192.168.061.010" 
+		port="80"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+		
+		<apn carrier="m:web 500 MB" 
+		mcc="218" 
+		mnc="05" 
+		apn="3g3"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="192.168.061.010" 
+		port="80"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+		
+		<apn carrier="m:web 1GB" 
+		mcc="218" 
+		mnc="05" 
+		apn="3g4"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="192.168.061.010" 
+		port="80"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+		
+		<apn carrier="m:tel FREND" 
+		mcc="218" 
+		mnc="05" 
+		apn="mtelfrend"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="192.168.061.010" 
+		port="80"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+		
+		<apn carrier="mtelmms" 
+		mcc="218" 
+		mnc="05" 
+		apn="mtelmms"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="192.168.061.011" 	
+		mmsport="80" 
+		mmsc="http://mmsc.mtel.ba/mms/wapenc"
+		type="mms"
+		preferapp="" /> 
+	<!-- serbia - mts  -->
+	<!--Desh Deepak modified port as per request and TDID 9341 on 11/05/2010-->
+		<apn carrier="mt:s mondo" 
+		mcc="220" 
+		mnc="03" 
+		apn="gprswap"
+		user="mts" 
+		server="" 
+		password="064" 
+		authtype="1"
+		proxy="172.017.088.198" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+	
+		<apn carrier="MMS" 
+		mcc="220" 
+		mnc="03" 
+		apn="mms"
+		user="mts" 
+		server="" 
+		password="064" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="172.017.085.131" 	
+		mmsport="8080" 
+		mmsc="http://mms.mts064.telekom.rs/mms/wapenc"
+		type="mms"
+		preferapp="" />
+	<!--Desh Deepak modified port as per request and TDID 9341 on 11/05/2010 END-->
+
+	<!--Sameer modified the mnc for the bug id 57159-->	
+	<!-- serbia - Telenor  -->
+		<apn carrier="Telenor GPRS" 
+		mcc="220" 
+		mnc="01" 
+		apn="internet"
+		user="telenor" 
+		server="" 
+		password="gprs" 
+		authtype="1"
+		proxy="217.065.192.033" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+	
+		<apn carrier="Telenor MMS" 
+		mcc="220" 
+		mnc="01" 
+		apn="mms"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="217.065.192.033" 	
+		mmsport="8080" 
+		mmsc="http://mms.telenor.rs/servlets/mms"
+		type="mms"
+		preferapp="" />  
+	
+			
+	<!-- serbia - Vip  -->
+		<apn carrier="Vip GPRS" 
+		mcc="220" 
+		mnc="05" 
+		apn="vipmobile"
+		user="vipmobile" 
+		server="" 
+		password="vipmobile" 
+		authtype="1"
+		proxy="212.015.182.082" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+	
+		<apn carrier="Vip MMS" 
+		mcc="220" 
+		mnc="05" 
+		apn="vipmobile.mms"
+		user="vipmobile" 
+		server="" 
+		password="vipmobile" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="212.015.182.082" 	
+		mmsport="8080" 
+		mmsc="http://mmsc.vipmobile.rs"
+		type="mms"
+		preferapp="" />  
+		
+	<!-- Macedonia - ONE  -->
+		<apn carrier="ONE Internet" 
+		mcc="294" 
+		mnc="02" 
+		apn="internet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+		
+		<apn carrier="ONE MMS" 
+		mcc="294" 
+		mnc="02" 
+		apn="mms"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="010.010.010.020" 	
+		mmsport="8080" 
+		mmsc="http://195.167.65.220:8002"
+		type="mms"
+		preferapp="" /> 
+
+<!--Desh Deepak Added for BUG ID 3515 START as for OPEN Prepaid profile for Macedonia - ONE operator on 25/03/2010-->
+
+		<apn carrier="ONE Internet" 
+		mcc="294" 
+		mnc="02" 
+		apn="ppinternet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+<!--Desh Deepak END-->
+	<!-- Macedonia -T-Mobile_MK   -->
+	<!-- vijayaraghava.rc removed t-zones AP as per TD-ID and PRI 7790 -T-Mobile_MK   -->
+	<!--
+		<apn carrier="t-zones" 
+		mcc="294" 
+		mnc="01" 
+		apn="wap"
+		user="wap" 
+		server="" 
+		password="wap" 
+		proxy="062.162.155.227" 
+		port="9201"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 		
+	-->
+	<!-- vijayaraghava.rc removed END -->
+	
+		<apn carrier="T-Mobile Internet" 
+		mcc="294" 
+		mnc="01" 
+		apn="internet"
+		user="internet" 
+		server="" 
+		password="t-mobile" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />  
+		
+		<apn carrier="TM MK MMS" 
+		mcc="294" 
+		mnc="01" 
+		apn="mms"
+		user="mms" 
+		server="" 
+		password="mms" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="062.162.155.227" 	
+		mmsport="8080" 
+		mmsc="http://mms.t-mobile.com.mk"
+		type="mms"
+		preferapp="" /> 
+	<!--Macedonia - VIP_MK   -->
+		<apn carrier="Vip Mobilen Portal" 
+		mcc="294" 
+		mnc="03" 
+		apn="VIPOPERATOR"
+		user="VIPOPERATOR" 
+		server="" 
+		password="VIPOPERATOR" 
+		authtype="2"
+		proxy="" 
+		port=""
+		mmsproxy="078.040.000.001" 
+		mmsport="9201" 
+		mmsc=""
+		type="default"
+		preferapp="" />  
+		
+		<apn carrier="Vip MMS" 
+		mcc="294" 
+		mnc="03" 
+		apn="Vipoperator.mms"
+		user="vipoperator" 
+		server="vipoperator.mms" 
+		password="vipoperator" 
+		authtype="2"
+		proxy="" 
+		port=""
+		mmsproxy="078.040.000.001" 	
+		mmsport="8080" 
+		mmsc="http://mmsc.vipoperator.com.mk"
+		type="mms"
+		preferapp="" /> 
+		
+	<!--Sameer added on 04/01/2009 Montenegro CA START   -->
+	<!--Mtel START-->	
+		<apn carrier="Mtel WAP" 
+		mcc="297" 
+		mnc="03" 
+		apn="mtelwap"
+		user="wap" 
+		server="" 
+		password="068" 
+		authtype="1"
+		proxy="172.025.025.23" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+		
+		<apn carrier="Mtel INTERNET" 
+		mcc="297" 
+		mnc="03" 
+		apn="mtelinternet"
+		user="internet" 
+		server="" 
+		password="068" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+		
+		<apn carrier="m:tel stream" 
+		mcc="297" 
+		mnc="03" 
+		apn="mtel-stream"
+		user="stream" 
+		server="" 
+		password="068" 
+		authtype="1"
+		proxy="172.025.037.010" 
+		port="554"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+		
+		<apn carrier="Mtel MMS" 
+		mcc="297" 
+		mnc="03" 
+		apn="mtelmms"
+		user="mms" 
+		server="" 
+		password="068" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="172.017.085.131" 
+		mmsport="8080" 
+		mmsc="http://mmsmtel.com/mms/wapenc"
+		type="mms"
+		preferapp="" />
+		 
+	<!--Mtel END-->
+
+	<!--Desh Deepak commented  ProMonte profiles as per Ramesha mail on 29/07/2010-->
+	<!-- ProMonte START-->
+	<!--
+		<apn carrier="ProGPRS" 
+		mcc="297" 
+		mnc="01" 
+		apn="gprs.promonte.com"
+		user="gprs" 
+		server="" 
+		password="gprs" 
+		authtype="1"
+		proxy="192.168.246.005" 
+		port="9201"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+		
+		<apn carrier="promedia" 
+		mcc="297" 
+		mnc="01" 
+		apn="media.promonte.com"
+		user="media" 
+		server="" 
+		password="media" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+		
+		<apn carrier="ProMMS" 
+		mcc="297" 
+		mnc="01" 
+		apn="mms.promonte.com"
+		user="mms" 
+		server="" 
+		password="mms" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="192.168.246.005" 
+		mmsport="9201" 
+		mmsc="http://mm.vor.promonte.com"
+		type="mms"
+		preferapp="" />
+	-->	
+	<!--ProMonte END-->
+	
+<!-- Germany - Telenor -->
+<!--Desh Deepak commented  Telenor profiles as per PRI on 29/07/2010-->
+	
+		<apn carrier="Telenor MNE internet" 
+		mcc="297" 
+		mnc="01" 
+		spn="Telenor"
+		apn="internet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="192.168.246.005" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+
+
+		<apn carrier="Telenor MNE mms" 
+		mcc="297" 
+		mnc="01" 
+		spn="Telenor"
+		apn="mms"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="192.168.246.005" 
+		mmsport="8080" 
+		mmsc="http://mm.vor.telenor.me "
+		type="mms"
+		preferapp="" />
+
+<!--Desh Deepak End-->
+
+
+	<!--T-Mobile CG START-->
+		<apn carrier="web and walk" 
+		mcc="297" 
+		mnc="02" 
+		apn="tmcg-wnw"
+		user="38267" 
+		server="" 
+		password="38267" 
+		authtype="1"
+		proxy="010.000.005.019" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+		
+		<apn carrier="T-Mobile media" 
+		mcc="297" 
+		mnc="02" 
+		apn="tmcg-media"
+		user="38267" 
+		server="" 
+		password="38267" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+		
+		
+		<apn carrier="T-Mobile MMS" 
+		mcc="297" 
+		mnc="02" 
+		apn="mms"
+		user="38267" 
+		server="" 
+		password="38267" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="010.000.005.019" 
+		mmsport="8080" 
+		mmsc="http://192.168.180.100/servlets/mms"
+		type="mms"
+		preferapp="" />
+		
+	<!--T-Mobile CG with mcc=220 mnc=04 start-->
+	<apn carrier="web and walk" 
+		mcc="220" 
+		mnc="04" 
+		apn="tmcg-wnw"
+		user="38267" 
+		server="" 
+		password="38267" 
+		authtype="1"
+		proxy="010.000.005.019" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+		
+		<apn carrier="T-Mobile media" 
+		mcc="220" 
+		mnc="04" 
+		apn="tmcg-media"
+		user="38267" 
+		server="" 
+		password="38267" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+		
+		
+		<apn carrier="T-Mobile MMS" 
+		mcc="220" 
+		mnc="04" 
+		apn="mms"
+		user="38267" 
+		server="" 
+		password="38267" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="010.000.005.019" 
+		mmsport="8080" 
+		mmsc="http://192.168.180.100/servlets/mms"
+		type="mms"
+		preferapp="" />
+	<!--T-Mobile CG with mcc=220 mnc=04 end-->
+	
+	<!--T-Mobile CG END-->
+	
+	<!--Sameer added on 04/01/2009 Montenegro CA END   -->
+	
+	<!--Sridhar added for Romania Start-->
+	
+		<!-- Cosmote Operator Settings start-->
+		
+		<apn carrier="Internet" 
+		mcc="226" 
+		mnc="03" 
+		apn="internet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+		
+		<apn carrier="Cosmote MMS" 
+		mcc="226" 
+		mnc="03" 
+		apn="mms"
+		user="mms" 
+		server="" 
+		password="mms" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="010.252.001.062" 
+		mmsport="8080" 
+		mmsc="http://mmsc1.mms.cosmote.ro:8002"
+		type="mms"
+		preferapp="" />
+
+		<!-- Cosmote Operator Settings End-->
+
+		<!-- Orange Operator Settings start-->
+
+		<apn carrier="Orange World" 
+		mcc="226" 
+		mnc="10" 
+		apn="wap"
+		user="wap" 
+		server="" 
+		password="wap" 
+		authtype="1"
+		proxy="062.217.247.252" 
+		port="8799"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+
+		<apn carrier="Orange Internet" 
+		mcc="226" 
+		mnc="10" 
+		apn="internet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+
+		<apn carrier="Orange MMS" 
+		mcc="226" 
+		mnc="10" 
+		apn="mms"
+		user="mms" 
+		server="" 
+		password="mms" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="062.217.247.252" 
+		mmsport="8799" 
+		mmsc="http://wap.mms.orange.ro:8002"
+		type="mms"
+		preferapp="" />
+
+	<!-- Orange Operator Settings End-->
+
+	<!-- Vodafone Operator Settings start-->
+		<apn carrier="Vodafone live!" 
+		mcc="226" 
+		mnc="01" 
+		apn="live.vodafone.com"
+		user="live" 
+		server="" 
+		password="vodafone" 
+		authtype="1"
+		proxy="193.230.161.231" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+
+		<apn carrier="Vodafone live! PRE" 
+		mcc="226" 
+		mnc="01" 
+		apn="live.pre.vodafone.com"
+		user="live" 
+		server="" 
+		password="vodafone" 
+		authtype="1"
+		proxy="193.230.161.231" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+
+		<!-- Yogish/Vijay removed as per PRI 24/4/2010 
+		<apn carrier="Mobile Internet" 
+		mcc="226" 
+		mnc="01" 
+		apn="internet.vodafone.ro"
+		user="internet.vodafone.ro" 
+		server="" 
+		password="vodafone" 
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> 
+
+		<apn carrier="Mobile Internet PRE" 
+		mcc="226" 
+		mnc="01" 
+		apn="internet.pre.vodafone.ro"
+		user="internet.pre.vodafone.ro" 
+		server="" 
+		password="vodafone" 
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" /> -->
+
+		<apn carrier="Vodafone MMS" 
+		mcc="226" 
+		mnc="01" 
+		apn="mms.vodafone.ro"
+		user="mms" 
+		server="" 
+		password="vodafone" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="193.230.161.231" 
+		mmsport="8080" 
+		mmsc="http://multimedia/servlets/mms"
+		type="mms"
+		preferapp="" />
+
+		<apn carrier="Vodafone MMS PRE" 
+		mcc="226" 
+		mnc="01" 
+		apn="mms.pre.vodafone.ro"
+		user="mms" 
+		server="" 
+		password="vodafone" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="193.230.161.231" 
+		mmsport="8080" 
+		mmsc="http://multimedia/servlets/mms"
+		type="mms"
+		preferapp="" />
+
+		<!-- Vodafone Operator Settings End-->
+
+	<!--Sridhar added for Romania End-->
+<!--Iceland - Nova -->
+<!-- Desh Deepak added the NOva profiles as per PRI on 29/07/2010 -->
+
+		<apn carrier="Nova net"
+		mcc="274" 
+		mnc="11"
+		spn="NOVA"
+		apn="net.nova.is"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="010.010.002.060" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+
+		<apn carrier="Nova MMS"
+		mcc="274" 
+		mnc="11"
+		spn="NOVA"
+		apn="mms.nova.is"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="010.010.002.060" 
+		mmsport="8080" 
+		mmsc="http://mmsc.nova.is"
+		type="mms"
+		preferapp="" />	
+
+<!-- Desh Deepak End -->
+
+	<!--Iceland - Siminn profile start 15/02/2009-->
+	<apn carrier="Siminn Internet"
+		mcc="274" 
+		mnc="01" 
+		apn="internet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+
+<!--Iceland - Siminn profile vijayaraghava.rc commented as per TD-ID 7825 start 22/4/10-->
+<!--
+	<apn carrier="Siminn streymi" 
+		mcc="274" 
+		mnc="01" 
+		apn="internet"
+		user="" 
+		server="" 
+		password="" 
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+-->
+<!--Iceland - Siminn profile end 22/4/10-->
+	<apn carrier="Siminn MMS" 
+		mcc="274" 
+		mnc="01" 
+		apn="mms.simi.is"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="213.167.138.200" 
+		mmsport="8080" 
+		mmsc="http://mms.simi.is/servlets/mms"
+		type="mms"
+		preferapp="" />
+	<!--Iceland - Siminn profile end-->
+	
+	<!--Iceland - Vodafone profile start 15/02/2009-->
+	<apn carrier="Vodafone" 
+		mcc="274" 
+		mnc="02" 
+		apn="live.gprs.is"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="010.022.000.022" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+		
+	<apn carrier="Streaming" 
+		mcc="274" 
+		mnc="02" 
+		apn="live.gprs.is"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+	
+	<apn carrier="Vodafone MMS" 
+		mcc="274" 
+		mnc="02" 
+		apn="mms.gprs.is"
+		user="" 
+		server="" 
+		password="" 
+		authtype="0"
+		proxy="" 
+		port=""
+		mmsproxy="010.022.000.010" 
+		mmsport="8080" 
+		mmsc="http://mmsc.vodafone.is"
+		type="mms"
+		preferapp="" />
+	
+	<!--Iceland - Vodafone profile end-->
+	<!--Desh Deepak Added-->
+	<!--Slovenia - Mobitel profile start 23/03/2010-->
+
+<!--	<apn carrier="Planet" 
+		mcc="293" 
+		mnc="41" 
+		apn="internet"
+		user="mobitel" 
+		server="" 
+		password="internet" 
+		authtype="1"
+		proxy="213.229.249.040" 
+		port="8080"
+		mmsproxy="213.229.249.040" 
+		mmsport="8080" 
+		mmsc="http://mms.mobitel.si/servlets/mms"
+		type=""
+		preferapp="" /> -->
+
+		<apn carrier="Planet" 
+		mcc="293" 
+		mnc="41" 
+		apn="internet"
+		user="mobitel" 
+		server="" 
+		password="internet" 
+		authtype="1"
+		proxy="213.229.249.040" 
+		port="8080"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="default" />
+
+		<apn carrier="Planet" 
+		mcc="293" 
+		mnc="41" 
+		apn="internet"
+		user="" 
+		server="" 
+		password="" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="213.229.249.040" 
+		mmsport="8080" 
+		mmsc="http://mms.mobitel.si/servlets/mms"
+		type="mms"
+		preferapp="" />
+<!--Slovenia - Mobitel profile end 23/03/2010-->
+
+<!--Slovenia - Simobile profile start 23/03/2010-->
+
+<apn carrier="Internet" 
+		mcc="293" 
+		mnc="40" 
+		apn="internet.simobil.si"
+		user="simobil" 
+		server="" 
+		password="internet" 
+		authtype="1"
+		proxy="080.095.224.017" 
+		port="9090"
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+
+<apn carrier="MMS" 
+		mcc="293" 
+		mnc="40" 
+		apn="mms.simobil.si"
+		user="simobil" 
+		server="" 
+		password="internet" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="080.095.224.046" 
+		mmsport="9090" 
+		mmsc="http://mmc/"
+		type="mms"
+		preferapp="" />
+
+<!--Slovenia - Simobile profile end 23/03/2010-->
+
+<!--Slovenia - Tusmobile profile start 23/03/2010-->
+
+<apn carrier="Tusmobil Internet" 
+		mcc="293" 
+		mnc="70" 
+		apn="internet.tusmobil.si"
+		user="tusmobil" 
+		server="" 
+		password="internet" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="" 
+		mmsport="" 
+		mmsc=""
+		type="default"
+		preferapp="" />
+
+<!--Updated password by archana-->
+		<apn carrier="Tusmobil MMS" 
+		mcc="293" 
+		mnc="70" 
+		apn="mms.tusmobil.si"
+		user="tusmobil" 
+		server="" 
+		password="mms" 
+		authtype="1"
+		proxy="" 
+		port=""
+		mmsproxy="091.185.221.085" 
+		mmsport="8080" 
+		mmsc="http://mms.tusmobil.si:8002"
+		type="mms"
+		preferapp="" />
+
+<!--Slovenia - Tusmobile profile end 23/03/2010-->
+<!--Desh Deepak end-->
+</apns>
